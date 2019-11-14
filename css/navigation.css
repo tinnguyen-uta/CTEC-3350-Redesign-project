@@ -6,8 +6,8 @@ header {
   padding-right: 0rem;
 }
 
-@media (min-width: 576px) { header { max-width: 540px; } }
-@media (min-width: 768px) { header { max-width: 720px; } }
+@media (min-width: 576px) { header { max-width: 100%; } }
+@media (min-width: 768px) { header { max-width: 100%; } }
 @media (min-width: 992px) { header {max-width: 960px; } }
 @media (min-width: 1200px) { header {max-width: 1140px; } }
 
@@ -23,6 +23,7 @@ header {
   align-content: flex-start;
   -webkit-align-content: flex-start;
   padding:0;
+	
   
 }
 
