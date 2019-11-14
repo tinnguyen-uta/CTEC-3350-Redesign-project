@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+footer {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 576px) { footer { max-width: 540px; } }
+@media (min-width: 768px) { footer { max-width: 720px; } }
+@media (min-width: 992px) { footer {max-width: 960px; } }
+@media (min-width: 1200px) { footer {max-width: 1140px; } }
+
+.footerbar {
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: column wrap;
+  -webkit-flex-flow: column wrap;
+
+}
+
+.footerbar .footer-info {
+	background-color:grey;
+}
+
+

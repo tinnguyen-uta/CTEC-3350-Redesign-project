@@ -4,3 +4,36 @@
   Date: 01/30/2018
   Description: Here goes a description
 */
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Montserrat:400,400i,500&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("grid.css");
+@import url("typography.css");
+@import url("navigation.css");
+@import url("components.css");
+@import url("footer.css");
+
+html {
+  font-family: "Montserrat", "Open Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.618em;
+  color: #444444;
+  font-weight: 400;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 20px;
+    line-height: 1.618em;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.blue {
+	height:500px;
+	width: 100%;
+	background-color:blue;
+}
