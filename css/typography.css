@@ -1,59 +1,55 @@
-h1, h2, h3, h4 {
-  font-family: "Libre Baskerville", "Times New Roman", "Georgia", serif;
-  font-weight: 700;
+/*mint color: #00F596;*/
+
+html {
+ 
+  font-family: 'Titillium Web', sans-serif;
+
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bitter', serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
 h1 {
-  font-size: 4.236em;
-  line-height: 4.236rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  font-size: 4.242rem;
+  line-height: 4.5rem;
+  margin-top: 3rem;
 }
 
 h2 {
-  font-size: 2.618em;
-  line-height: 3.427rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  margin-top: 3rem;
 }
 
 h3 {
-  font-size: 1.618em;
-  line-height: 2.427rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  font-size: 1.414rem;
 }
 
 h4 {
-  font-size: 1em;
-  line-height: 1.618rem;
+  font-size: 1rem;
 }
 
+h5 {
+  font-size: 0.4713333333333333rem;
+}
+
+h6 {
+  font-size: 0.3535rem;
+}
+
+
 p {
-  max-width: 35rem;
+ 
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
-b, strong {
-  font-weight: 500;
-  color: #000000;
-}
-
-ul.unstyled {
-  padding-left: 0;
-  list-style-type: none;
-}
-
-ul.inline {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-ul.inline > li {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-}
 
 
 
@@ -61,4 +57,3 @@ ul.inline > li {
 
 
 
-/* read */

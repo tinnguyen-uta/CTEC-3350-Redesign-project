@@ -2,8 +2,8 @@ header {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
 
 @media (min-width: 576px) { header { max-width: 540px; } }
@@ -22,6 +22,7 @@ header {
   -webkit-align-itmes: flex-end;
   align-content: flex-start;
   -webkit-align-content: flex-start;
+  padding:0;
   
 }
 
@@ -78,6 +79,7 @@ header {
     display: block;
     overflow: hidden;
     padding: 0.7rem 1.5rem;
+	
   }
 
   .navbar #mainNavigation .navbar-nav .navbar-item .navbar-link:hover,
@@ -150,14 +152,23 @@ header {
     }
   }
 
-  @media (min-width: 992px) {
-    .navbar .navbar-toggler {
+  @media (min-width: 1200px) {
+	  
+	  
+	 .navbar .navbar-toggler {
       display: none;
     }
 	  
 	  .navbar .navbar-cheklist {
 		  order: 3;
 	  }
+	  
+	  .navbar .navbar-brand {
+  	
+		  width: 100px;
+		  height: 40px;
+		  text-indent: -99999px;
+	}
 
     .navbar #mainNavigation {
       display: block !important;

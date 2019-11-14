@@ -14,10 +14,14 @@
 
 html {
   font-family: "Montserrat", "Open Sans", "Arial", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.618em;
   color: #444444;
   font-weight: 400;
+}
+
+body {
+	margin:0;padding:0;
 }
 
 @media (min-width: 576px) {
@@ -25,6 +29,8 @@ html {
     font-size: 20px;
     line-height: 1.618em;
   }
+	
+	
 }
 
 img {
@@ -35,5 +41,10 @@ img {
 .blue {
 	height:500px;
 	width: 100%;
-	background-color:blue;
+	background-color:#5B5EFF;
+	margin:0;padding:0;
+}
+
+main .container, header {
+  background-color:gray;
 }

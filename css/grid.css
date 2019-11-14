@@ -24,8 +24,8 @@ body {
 .container-fluid {
   max-width: 100%;
   /*background-color: #cccccc;*/
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
 
 .row {

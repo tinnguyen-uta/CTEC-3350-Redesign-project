@@ -5,8 +5,8 @@ footer {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
 
 @media (min-width: 576px) { footer { max-width: 540px; } }
@@ -24,6 +24,73 @@ footer {
 
 .footerbar .footer-info {
 	background-color:grey;
+	width: 100%;
 }
+
+.footerbar .footer-info .row  {
+	padding: 1rem 0;
+	
+}
+
+.footerbar .footer-info .row .footer-social-list section {
+	
+}
+
+.footerbar .footer-info  .footer-social-list section p {
+	margin: 0;
+}
+
+.footerbar .footer-info .row .footer-social-list .social-contact-nav {
+	  list-style-type: none;
+	
+	  display: flex;
+	  display: -webkit-flex;
+	  flex-flow: row wrap;
+	  -webkit-flex-flow: row wrap;
+	  justify-content: flex-end;
+	  -webkit-justify-content: flex-end;
+	  align-items: flex-start;
+	  -webkit-align-itmes: flex-start;
+	  align-content: flex-start;
+	  -webkit-align-content: flex-start;
+}
+
+.footerbar .footer-info .footer-social-list li {
+	padding-left: 1.5rem;
+	font-size:1.5rem;
+	
+}
+
+.footerbar .footer-info .row .footer-social-list .social-contact-nav .social-contact-item .social-contact-link {
+	
+	color: white;
+}
+
+
+.footerbar .footer-info .row ul {
+	list-style-type: none;
+	
+}
+
+.footerbar .footer-info .row ul .footer-link {
+	text-decoration: none;
+	color:white;
+}
+
+
+
+
+@media (min-width: 992px) { 
+	
+}
+
+
+
+
+
+
+
+
+
 
 
