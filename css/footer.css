@@ -77,10 +77,55 @@ footer {
 	color:white;
 }
 
+.footerbar .footer-info .row .footer-sitemap-allpage ul {
+	padding-left:1rem;
+}
+
+.footerbar .footer-info .row .footer-sitemap-services ul {
+	padding-left:3rem;
+}
+
 
 
 
 @media (min-width: 992px) { 
+	.footer-info {
+	  display: flex;
+	  display: -webkit-flex;
+	  flex-flow: row wrap;
+	  -webkit-flex-flow: row wrap;
+	  justify-content: flex-start;
+	  -webkit-justify-content: flex-start;
+	  align-items: flex-start;
+	  -webkit-align-itmes: flex-start;
+	  align-content: flex-start;
+	  -webkit-align-content: flex-start;
+	}
+	
+	.footerbar .footer-info .row:first-child {
+	  display: flex;
+	  display: -webkit-flex;
+	  flex-flow: column-reverse wrap;
+	  -webkit-flex-flow: column-reverse wrap;
+	  padding-right:5rem;
+	  
+	}
+	
+	.footerbar .footer-info .row .footer-social-list .social-contact-nav {
+		padding-left:1rem;
+	}
+	
+	.footerbar .footer-info .footer-social-list .social-contact-nav li {
+	padding-left: 0rem;
+	padding-right: 1.5rem;
+	
+	}
+
+	
+	.footerbar .footer-info .row .footer-social-list {
+	padding:0;
+	}
+	
 	
 }
 
