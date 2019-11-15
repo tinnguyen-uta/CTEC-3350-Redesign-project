@@ -4,3 +4,12 @@
   Date: 01/30/2018
   Description: Here goes a description
 */
+
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Montserrat:400,400i,500&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("grid.css");
+@import url("typography.css");
+@import url("navigation.css");
+
+
