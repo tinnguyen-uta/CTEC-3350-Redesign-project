@@ -4,7 +4,7 @@
   Date: 01/30/2018
   Description: Here goes a description
 */
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Montserrat:400,400i,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url("grid.css");
 @import url("typography.css");
@@ -12,25 +12,13 @@
 @import url("components.css");
 @import url("footer.css");
 
-html {
-  font-family: "Montserrat", "Open Sans", "Arial", sans-serif;
-  font-size: 15px;
-  line-height: 1.618em;
-  color: #444444;
-  font-weight: 400;
-}
+
 
 body {
 	margin:0;padding:0;
 }
 
-@media (min-width: 576px) {
-  html {
-    font-size: 20px;
-    line-height: 1.618em;
-  }
-	
-	
+
 }
 
 img {
@@ -46,5 +34,5 @@ img {
 }
 
 main .container, header {
-  background-color:gray;
+  background-color: white;
 }
