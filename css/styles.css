@@ -6,10 +6,44 @@
 */
 
 
+
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Montserrat:400,400i,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url("grid.css");
 @import url("typography.css");
 @import url("navigation.css");
 
+
+
+
+@import url("components.css");
+@import url("footer.css");
+
+
+
+body {
+	margin:0;padding:0;
+}
+
+
+
+
+img {
+  max-width: 100%;
+}
+
+
+.blue {
+	height:500px;
+	width: 100%;
+	background-color:#5B5EFF;
+	margin:0;padding:0;
+}
+
+main .container, header {
+  background-color: white;
+}
 
