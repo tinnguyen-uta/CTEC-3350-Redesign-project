@@ -118,9 +118,9 @@ function slideHandler (current, next, container){
 /** click to next question**/
 
 let indicatorControl = $(".indicator-control") ;
-let indicator = $(".slide-indicators li") ;
+let indicatorz = $(".slide-indicators li") ;
 
-indicator.on("click", function(){
+indicatorz.on("click", function(){
   let parentContainer= $(this).closest(".request-container")
   let currentSlide =$(parentContainer).find(".slide-indicators li.active").index();
   let nextSlide = $(this).index();
