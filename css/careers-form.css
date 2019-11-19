@@ -18,9 +18,11 @@
   text-align: center;
 }
 
-.job-form-entry {
+.job-form {
   display: flex;
   display: -webkit-flex;
+  flex-flow: column wrap;
+  -webkit-flex-flow: column wrap;
   justify-content: center;
   -webkit-justify-content: center;
   align-items: center;
