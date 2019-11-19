@@ -80,8 +80,13 @@ header {
     display: block;
     overflow: hidden;
     padding: 0.7rem 1.5rem;
+	
 
   }
+
+navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item {
+	padding-right: 5rem;
+}
 
   .navbar #mainNavigation .navbar-nav .navbar-item .navbar-link:hover,
   .navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item .dropdown-link:hover,
@@ -166,7 +171,7 @@ header {
 
 	  .navbar .navbar-brand {
 
-		  width: 100px;
+		  width: 250px;
 		  height: 40px;
 		  text-indent: -99999px;
 	}
