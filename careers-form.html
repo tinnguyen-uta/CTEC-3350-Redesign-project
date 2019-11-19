@@ -83,7 +83,32 @@
         <h2>Send Us Your Resume</h2>
         <p> If you feel that you would be a great fit for the company, fill out the form below! </p>
       </div>
-        
+      <div class="job-form-entry col-lg-4 col-md-6 col-sm-12"
+      <form action="action_page.php">
+
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="user@domain.com">
+
+          <label for="phone">Phone Number</label>
+          <input type="text" id="phone" name="phone" placeholder="(123)-456-7890">
+
+          <label for="position">Position</label>
+            <select id="position" name="position">
+              <option value="ballet dancer">Ballet Dancer</option>
+              <option value="clown">Clown</option>
+              <option value="artist">Artist</option>
+            </select>
+
+            <input type="submit" value="Submit">
+
+          </form>
+      </div>
     </div>
     </div>
   </main>
