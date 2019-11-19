@@ -3,8 +3,8 @@
   padding: 1rem;
   display: flex;
   display: -webkit-flex;
-  flex-flow: row nowrap;
-  -webkit-flex-flow: row nowrap;
+  flex-flow: column wrap;
+  -webkit-flex-flow: column wrap;
   justify-content: center;
   -webkit-justify-content: center;
   align-items: center;
@@ -15,4 +15,8 @@
 
 .job-info-description {
   text-align: center;
+}
+
+.job-info-title {
+
 }
