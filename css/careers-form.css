@@ -1,6 +1,7 @@
 .job-info {
-  background-color: #dadada;
-  padding: 1rem;
+  background-color: #eeeeee;
+  padding-bottom: 1.5rem;
+  padding-top:.5rem;
   display: flex;
   display: -webkit-flex;
   flex-flow: column wrap;
@@ -17,6 +18,23 @@
   text-align: center;
 }
 
-.job-info-title {
+.job-form-entry {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  align-content: center;
+  -webkit-align-content: center;
+}
 
+input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
 }
