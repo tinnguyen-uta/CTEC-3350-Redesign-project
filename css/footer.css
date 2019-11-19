@@ -24,7 +24,7 @@ footer {
 .footerbar .footer-info {
 	background-color: #0197A2;
 	width: 100%;
-  color: white;
+  	color: white;
 }
 
 .footerbar .footer-info .row  {
@@ -123,7 +123,69 @@ footer {
 	padding:0;
 	}
 
-
-
-
 }
+
+.footer-acedemic-only {
+	background-color: #BFBFBF;
+	
+	
+}
+
+.footer-acedemic-only h6 {
+	padding: 4px 0;
+	margin: 0;
+}
+
+/*Bottom question bar*/
+
+.bottom-bar {
+	 
+	background-color:#DEDEDE;
+}
+
+
+.bottom-bar .question-button {
+	background: none;
+	border:none;
+	width: 100%;
+	text-align: right;
+	background-color: orange;
+	padding: 0.7rem 0.5rem;
+	cursor:pointer;
+	color: white;
+	font-weight: 700;
+	
+}
+
+.bottom-bar .question-bottom-bar-dropup {
+	width: 100%;
+	display: none;
+}
+
+.bottom-bar .question-bottom-bar-dropup .question-dropup-menu {
+	list-style-type: none;
+	margin: 1.2rem 0 0 0;
+	padding: 0;
+	
+}
+
+.bottom-bar .question-bottom-bar-dropup .question-dropup-menu .dropup-item .dropup-link {
+	text-decoration: none;
+	color: white;
+}
+
+.bottom-bar .question-bottom-bar-dropup .question-dropup-menu .dropup-item {
+	width: 80%;
+	background-color:  #0197A2;
+	padding: 0.5rem 0rem;
+	text-align: center;
+	margin: 0.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+
+
+
