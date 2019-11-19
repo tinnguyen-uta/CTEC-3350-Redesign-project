@@ -30,6 +30,15 @@ img {
   max-width: 100%;
 }
 
+/*------------- BACKGROUND COLORS (ADD TO YOUR DIV) -----------------*/
+
+.background-green {
+	background-color: #00F596;
+}
+
+.background-gray {
+	background-color: #EEEEEE;
+}
 
 
 /*-------------home style css-----------------*/
