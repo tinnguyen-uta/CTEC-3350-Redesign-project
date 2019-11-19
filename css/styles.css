@@ -32,11 +32,13 @@ img {
 
 /*------------- BACKGROUND COLORS (ADD TO YOUR DIV) -----------------*/
 
-.background-green {
+/* green for now */
+.background-primary {
 	background-color: #00F596;
 }
 
-.background-gray {
+/* light gray for now */
+.background-secondary {
 	background-color: #EEEEEE;
 }
 
