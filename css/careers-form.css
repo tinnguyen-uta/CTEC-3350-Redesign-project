@@ -43,9 +43,12 @@ input[type=text], select {
 }
 
 input[type=submit] {
-  background-color: #00F596;;
+  background-color: #0197A2;;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
+  cursor: pointer; }
+
+  input[type=submit]:hover {
+  background-color: #CAEBED;}
