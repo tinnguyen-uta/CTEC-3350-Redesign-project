@@ -1,59 +1,86 @@
 /*mint color: #00F596;*/
 
 html {
- 
-  font-family: 'Titillium Web', sans-serif;
-
-  font-size: 14px;
+  font-family: "Muli", "Arial", sans-serif;
+  color: #444444;
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Bitter', serif;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  line-height: 1.5rem;
-}
-h1 {
-  font-size: 4.242rem;
-  line-height: 4.5rem;
-  margin-top: 3rem;
+/* MOBILE AND TABLET */
+
+h1, h2, h3, h4, h5, h6, p {
+  text-align: center;
 }
 
-h2 {
-  font-size: 2.2rem;
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+strong {
+  font-weight: 700;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 2.5rem;
   line-height: 3rem;
   margin-top: 3rem;
 }
 
+h2 {
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-top: 3rem;
+}
+
 h3 {
-  font-size: 1.414rem;
+  font-weight: 800;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
 }
 
 h4 {
-  font-size: 1rem;
+  font-weight: 800;
+  font-size: 1.4rem;
+  line-height: 2rem;
 }
 
 h5 {
-  font-size: 0.4713333333333333rem;
+  font-size: .95rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  text-align: left;
 }
 
+h5 a {
+  font-weight: 600;
+  color: white;
+}
+
+h5 a:hover {
+  color: #CAEBED;
+}
+
+
+/* FOOTER / DISCLAIMER */
 h6 {
-  font-size: 0.3535rem;
+  font-size: 0.7rem;
+  font-weight: 400;
 }
-
 
 p {
- 
-  line-height: 1.5rem;
+  line-height: 1.4rem;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
+p a {
+  text-decoration: none;
+  color: #0197A2;
+  font-weight: 700;
+}
 
-
-
-
-
-
-
+p a:hover {
+  color: #FF9D1E;
+}

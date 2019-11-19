@@ -23,14 +23,14 @@ header {
   align-content: flex-start;
   -webkit-align-content: flex-start;
   padding:0;
-	
-  
+  text-transform: uppercase;
+
 }
 
 .navbar .navbar-brand {
   display: block;
   overflow: hidden;
-  background: url('../images/FooBlah-Logo.svg') no-repeat 0 0/contain transparent;
+  background: url('../images/b3entertainment-logo-color.svg') no-repeat 0 0/contain transparent;
   width: 250px;
   height: 40px;
   text-indent: -99999px;
@@ -41,7 +41,7 @@ header {
   width: 3rem;
   height: 3rem;
   font-size: 1.25rem;
-  background-color: red;
+  background-color: #FF9D1E;
   color: white;
   border: 0 none;
   cursor: pointer;
@@ -51,7 +51,7 @@ header {
   width: 3rem;
   height: 3rem;
   font-size: 1.25rem;
-  background-color: red;
+  background-color: #0197A2;
   color: white;
   border: 0 none;
   cursor: pointer;
@@ -68,7 +68,7 @@ header {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #666666;
+  background-color: #3FB6BF;
 }
 
 .navbar #mainNavigation .navbar-nav .navbar-item {}
@@ -80,18 +80,18 @@ header {
     display: block;
     overflow: hidden;
     padding: 0.7rem 1.5rem;
-	
+
   }
 
   .navbar #mainNavigation .navbar-nav .navbar-item .navbar-link:hover,
   .navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item .dropdown-link:hover,
   .navbar #mainNavigation .navbar-nav .navbar-item.active .navbar-link,
   .navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item.active .dropdown-link {
-    background-color: red;
+    background-color: #3FB6BF;
   }
 
   .navbar #mainNavigation .navbar-nav .navbar-item.dropdown > .navbar-link {
-    background-color: #999999;
+    background-color: #0197A2;
     color: #ffffff;
   }
 
@@ -110,7 +110,7 @@ header {
   }
 
   .navbar #mainNavigation .navbar-nav .dropdown-menu {
-    background-color: #999999;
+    background-color: #0197A2;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -154,18 +154,18 @@ header {
   }
 
   @media (min-width: 1200px) {
-	  
-	  
+
+
 	 .navbar .navbar-toggler {
       display: none;
     }
-	  
+
 	  .navbar .navbar-cheklist {
 		  order: 3;
 	  }
-	  
+
 	  .navbar .navbar-brand {
-  	
+
 		  width: 100px;
 		  height: 40px;
 		  text-indent: -99999px;
