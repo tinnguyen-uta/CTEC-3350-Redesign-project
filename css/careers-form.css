@@ -6,8 +6,8 @@
 .job-info-description {
   display: flex;
   display: -webkit-flex;
-  flex-flow: column wrap;
-  -webkit-flex-flow: column wrap;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
   justify-content: center;
   -webkit-justify-content: center;
   align-items: center;
