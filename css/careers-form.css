@@ -29,6 +29,7 @@
   -webkit-align-items: center;
   align-content: center;
   -webkit-align-content: center;
+  margin-bottom: 1rem;
 }
 
 input[type=text], select {
@@ -40,3 +41,11 @@ input[type=text], select {
   margin-top: 6px;
   margin-bottom: 16px;
 }
+
+input[type=submit] {
+  background-color: #00F596;;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
