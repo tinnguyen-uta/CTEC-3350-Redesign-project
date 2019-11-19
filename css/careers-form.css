@@ -1,6 +1,7 @@
 .job-info {
   background-color: #dadada;
-  padding: 1rem;
+  padding-bottom: 1.5rem;
+  padding-top:.5rem;
   display: flex;
   display: -webkit-flex;
   flex-flow: column wrap;
