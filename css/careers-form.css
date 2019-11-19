@@ -40,3 +40,11 @@ input[type=text], select {
   margin-top: 6px;
   margin-bottom: 16px;
 }
+
+input[type=submit] {
+  background-color: #00f596;;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
