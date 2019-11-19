@@ -111,14 +111,14 @@ img {
   border: transparent;
 }
 
-.next-btn{
+.indicator-control .indicator-control-prev{
   content: "\f138";
 	font-family: "FontAwesome";
 	padding-left: 1rem;
   color: #FF9D1E;
 }
 
-.back-btn{
+.indicator-control .indicator-control-next{
   content: "\f137";
 	padding-left: 1rem;
   color: #0197A2;
