@@ -36,11 +36,7 @@ $(function(){
   });
 
 
-  let faqToggler = $(".faq-question");
-
-  faqToggler.on("click", function(){
-    $(this).toggleClass("closed");
-  })
+  
   
 
 });
@@ -48,7 +44,15 @@ $(function(){
 
 
 
+$(function(){
+	let toggler = $(".bottom-bar .question-button");
 
+  toggler.on("click", function(){
+    console.log("I was clicked on question button");
+    let questionBottomMenu = $(".question-bottom-bar-dropup");
+    questionBottomMenu.toggle(100);
+  });
+});
 
 
 
