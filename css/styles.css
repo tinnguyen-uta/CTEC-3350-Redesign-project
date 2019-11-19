@@ -15,11 +15,7 @@
 @import url("grid.css");
 @import url("typography.css");
 @import url("navigation.css");
-
-
-
-
-@import url("components.css");
+@import url("hero-sliders.css");
 @import url("footer.css");
 @import url("careers-form.css");
 
@@ -30,20 +26,80 @@ body {
 }
 
 
-
-
 img {
   max-width: 100%;
 }
 
 
-.blue {
-	height:500px;
-	width: 100%;
-	background-color:#5B5EFF;
-	margin:0;padding:0;
+main .container, main .container .col-md-12, header {
+  background-color: white;
+  padding: 0;
 }
 
-main .container, header {
-  background-color: white;
+
+/*-------------home style css-----------------*/
+/*-------------hero slider info -----------------*/
+.home-company-description {
+	
 }
+
+.home-company-description p {
+	padding: 2rem 4rem;
+	margin: 0;
+	
+}
+
+
+/*------------- end hero slider info -----------------*/
+
+
+/*-------------POPULAR SERVICES SLIDERS -----------------*/
+
+.home-popular-service-sliders {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+  margin: 1rem 1rem;
+  
+}
+
+.home-popular-service-sliders::-webkit-scrollbar { 
+	  display: none;
+}
+  
+
+  
+ .home-popular-service-sliders .popular-service-item {
+    flex: 0 0 auto;
+    margin-right: 1rem;
+	width: 20rem;
+}
+
+
+.home-popular-service-sliders .popular-service-item {
+	 display: inline-block;
+}
+
+.home-popular-service-sliders .popular-service-item .popular-service-link {
+	
+}
+
+/*------------- end POPULAR SERVICES SLIDERS -----------------*/
+
+/*------------- CAREERS  -----------------*/
+
+.home-careers {
+	
+	padding: 1rem 0;
+}
+
+
+/*------------- end CAREERS  -----------------*/
+
+
+
+
+
+
+
