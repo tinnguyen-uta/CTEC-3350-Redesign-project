@@ -52,11 +52,3 @@ input[type=submit] {
 
   input[type=submit]:hover {
   background-color: #CAEBED;}
-
-  input[type=fileupload] {
-    background-color: white;;
-    color: #0197a2;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer; }
