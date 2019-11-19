@@ -10,4 +10,8 @@
   -webkit-flex-flow: column wrap;
   justify-content: center;
   -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  align-content: center;
+  -webkit-align-content: center;
 }
