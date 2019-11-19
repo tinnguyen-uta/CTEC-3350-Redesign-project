@@ -14,5 +14,7 @@
 }
 
 .job-info-description {
-
+text-align: center;
+flex-direction: column;
+justify-content: flex-end;
 }
