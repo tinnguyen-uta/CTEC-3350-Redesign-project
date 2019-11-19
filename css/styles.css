@@ -31,11 +31,6 @@ img {
 }
 
 
-main .container, main .container .col-md-12, header {
-  background-color: white;
-  padding: 0;
-}
-
 
 /*-------------home style css-----------------*/
 /*-------------hero slider info -----------------*/
@@ -96,6 +91,8 @@ main .container, main .container .col-md-12, header {
 
 
 /*------------- end CAREERS  -----------------*/
+<<<<<<< HEAD
+=======
 
 
 
@@ -168,3 +165,4 @@ main .container, main .container .col-md-12, header {
 
 }
 /*end REQUEST INFO*/
+>>>>>>> a91bb48be20ad07e92e27d632bc052f42ea939fe
