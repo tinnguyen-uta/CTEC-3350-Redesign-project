@@ -52,7 +52,7 @@ function slideHandlerBanner (current, next, container){
 	$(container).find(".hero-slide").eq(next).addClass("active");
 	$(container).find(".hero-indicators li").eq(current).removeClass("active");
 	$(container).find(".hero-indicators li").eq(next).addClass("active");
-
+	
 };
 
 /*------------------ end rotate banner-----------------*/

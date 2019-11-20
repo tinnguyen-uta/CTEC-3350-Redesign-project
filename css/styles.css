@@ -8,9 +8,7 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Montserrat:400,400i,500&display=swap');
-
 @import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
-
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url("grid.css");
 @import url("typography.css");
@@ -89,6 +87,25 @@ img {
 	color: #797979;
 }
 
+
+@media (min-width: 992px) { 
+	
+	.container-fluid {
+		  max-width: 1200px;
+		  margin-left: auto;
+		  margin-right: auto;
+		  /*background-color: #dadada;*/
+		  padding-left: 1rem;
+		  padding-right: 1rem;
+	} 
+}
+
+
+
+
+
+
+
 /*------------- end POPULAR SERVICES SLIDERS -----------------*/
 
 /*------------- CAREERS  -----------------*/
@@ -96,16 +113,24 @@ img {
 .home-careers p {
 
 	padding: 0rem 3rem 1rem 3rem;
+	margin-bottom: 0;
 }
 
-.home-careers h3 {
+.home-careers h4 {
 	padding-top: 0rem;
 	margin-top: 0rem;
+	background-color: #0197A2;
+	width: 10rem;
+	border-radius: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 
 .home-careers a {
 	text-decoration: none;
-	color: #0197A2;
+	color: white;
+	padding: 0.5rem;
 }
 
 

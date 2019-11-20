@@ -9,10 +9,7 @@ footer {
   padding-right: 0rem;
 }
 
-@media (min-width: 576px) { footer { max-width: 100%; } }
-@media (min-width: 768px) { footer { max-width: 100%; } }
-@media (min-width: 992px) { footer {max-width: 960px; } }
-@media (min-width: 1200px) { footer {max-width: 1140px; } }
+
 
 .footerbar {
   display: flex;
@@ -86,6 +83,8 @@ footer {
 }
 
 
+
+
 @media (min-width: 992px) {
 	.footer-info {
 	  display: flex;
@@ -97,7 +96,6 @@ footer {
 	  align-items: flex-start;
 	  -webkit-align-itmes: flex-start;
 	  align-content: flex-start;
-	  -webkit-align-content: flex-start;
 	}
 
 	.footerbar .footer-info .row:first-child {
@@ -137,6 +135,8 @@ footer {
 }
 
 /*Bottom question bar*/
+
+
 
 .bottom-bar {
 	 
@@ -182,7 +182,38 @@ footer {
 	margin: 0.5rem;
 	margin-left: auto;
 	margin-right: auto;
+	border-radius: 1rem;
 	
+}
+
+@media (min-width: 992px) {
+	
+	.bottom-bar {
+		position: relative;
+		
+	}
+	
+	.bottom-bar .question-button {
+		width: 10rem;
+		text-align: center;
+		position: absolute;
+		bottom: 2rem;
+		right: 3rem;
+		border-radius: 1rem;
+	}
+	.bottom-bar .question-bottom-bar-dropup {
+		width: 10rem;
+		display: none;
+		position: absolute;
+		bottom: 5rem;
+		right: 3rem;
+		border-radius: 1rem;
+	}
+	
+	.bottom-bar .question-bottom-bar-dropup .question-dropup-menu .dropup-item {
+		border-radius: 1rem;
+		border:3px solid orange;
+	}
 }
 
 
