@@ -5,5 +5,5 @@
 .career-values {
   display: flex;
   -webkit-display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
 }
