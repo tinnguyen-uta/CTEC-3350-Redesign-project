@@ -69,28 +69,35 @@
   <div class = "container">
 	  	   <div class = "row">
 		   		<div class="col-xs-12">
-            <div id="herosample" class="request-container">
+            <h1>Request Info</h1>
+            <div id="reqsample" class="request-container">
+              <div class="indicators-align">
             <ol class="slide-indicators">
-              <li data-target="#herosample" data-slide-to="0" class="active"></li>
-              <li data-target="#herosample" data-slide-to="1"></li>
-              <li data-target="#herosample" data-slide-to="2"></li>
-              <li data-target="#herosample" data-slide-to="3"></li>
-              <li data-target="#herosample" data-slide-to="4"></li>
-              <li data-target="#herosample" data-slide-to="5"></li>
-              <li data-target="#herosample" data-slide-to="6"></li>
-              <li data-target="#herosample" data-slide-to="7"></li>
-              <li data-target="#herosample" data-slide-to="8"></li>
+              <li data-target="#reqsample" data-slide-to="0" class="active"></li>
+              <li data-target="#reqsample" data-slide-to="1"></li>
+              <li data-target="#reqsample" data-slide-to="2"></li>
+              <li data-target="#reqsample" data-slide-to="3"></li>
+              <li data-target="#reqsample" data-slide-to="4"></li>
+              <li data-target="#reqsample" data-slide-to="5"></li>
+              <li data-target="#reqsample" data-slide-to="6"></li>
+              <li data-target="#reqsample" data-slide-to="7"></li>
+              <li data-target="#reqsample" data-slide-to="8"></li>
             </ol>
-            <div class="hero-slides">
+          </div>
+            <div class="req-slides">
 
             <div class="page active" id="slide1">
-                <div id="question">What is the event type? </div>
+                <div id="question"><h2>What is the event type?</h2> </div>
                 <div id="answer-buttons" class="btn-grid">
+                  <div class="btn-rows">
                   <button class="btn-ans">Corporate</button>
                   <button class="btn-ans">Public</button>
+                </div>
+                <div class="btn-rows">
                   <button class="btn-ans">Private</button>
                   <button class="btn-ans">Children</button>
                 </div>
+              </div>
 
                 <div class="controls">
                   <a href="#" class="indicator-control indicator-control-next" data-slide="next"><i class="fa fa-chevron-circle-right"></i></a>
@@ -99,7 +106,7 @@
 
 
             <div class="page" id="slide2">
-                <div id="question">What is the event theme? </div>
+                <div id="question"><h2>What is the event theme?</h2> </div>
                 <div id="answer-buttons" class="btn-grid">
                   <button class="btn-ans">Birthday</button>
                   <button class="btn-ans">Ceremony</button>
@@ -116,7 +123,7 @@
    		       </div>
 
             <div class="page" id="slide3">
-                <div id="question">What service(s) are you interested in? </div>
+                <div id="question"><h2>What service(s) are you interested in?</h2> </div>
                 <div id="answer-buttons" class="btn-grid">
                   <button class="btn-ans">Animals</button>
                   <button class="btn-ans">Holidays</button>
@@ -133,7 +140,7 @@
    		       </div>
 
             <div class="page" id="slide4">
-                <div id="question">Do you have a date for the event? </div>
+                <div id="question"><h2>Do you have a date for the event?</h2> </div>
                 <div id="answer-buttons" class="btn-grid">
                   <p>I have a fixed date: <input type="date" id="datepicker"></p>
                   <p>I have a flexible date: <input type="date" id="datepicker"></p>
@@ -167,7 +174,7 @@
    		       </div>
 
             <div class="page" id="slide5">
-                <div id="question">Time of day? </div>
+                <div id="question"><h2>Time of day?</h2> </div>
                 <div id="answer-buttons" class="btn-grid">
                   <button class="btn-ans">Morning</button>
                   <button class="btn-ans">Afternoon</button>
@@ -182,7 +189,7 @@
    		       </div>
 
             <div class="page" id="slide6">
-                <div id="question">Where is the event? </div>
+                <div id="question"><h2>Where is the event?</h2> </div>
                 <div id="answer-buttons" class="btn-grid">
                   <button class="btn-ans">Indoor</button>
                   <button class="btn-ans">Outdoor</button>
@@ -197,17 +204,23 @@
    		       </div>
 
             <div class="page" id="slide7">
-                <div id="question">Estimated number of people attending </div>
+                <div id="question"><h2>Estimated number of people attending</h2> </div>
                 <div id="answer-buttons" class="btn-grid">
+                  <div class="btn-col">
                   <button class="btn-ans">0-25</button>
-                  <button class="btn-ans">25-50</button>
-                  <button class="btn-ans">50-100</button>
                   <button class="btn-ans">100-150</button>
-                  <button class="btn-ans">150-200</button>
-                  <button class="btn-ans">200-300</button>
                   <button class="btn-ans">300-400</button>
+                </div>
+                <div class="btn-col">
+                  <button class="btn-ans">25-50</button>
+                  <button class="btn-ans">150-200</button>
                   <button class="btn-ans">400-500</button>
+                </div>
+                <div class="btn-col">
+                  <button class="btn-ans">50-100</button>
+                  <button class="btn-ans">200-300</button>
                   <button class="btn-ans">500+</button>
+                </div>
                 </div>
 
                 <div class="controls">
@@ -217,7 +230,7 @@
    		       </div>
 
             <div class="page" id="slide8">
-                <div id="question">What's your budget? </div>
+                <div id="question"><h2>What's your budget?</h2> </div>
                 <div id="answer-buttons" class="btn-grid">
                   <p>$<input type="number"></input> to $<input type="number"></input></p>
                 </div>
@@ -229,7 +242,7 @@
    		       </div>
 
             <div class="page" id="slide9">
-                <div id="question">Anything else we need to know? </div>
+                <div id="question"><h2>Anything else we need to know?</h2> </div>
                 <div id="answer-buttons" class="btn-grid">
                   <div class="job-form-entry col-lg-4 col-md-6 col-sm-12">
                   <form action="action_page.php">
@@ -274,6 +287,10 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
 
   <footer>
 	  <div class="footerbar">
