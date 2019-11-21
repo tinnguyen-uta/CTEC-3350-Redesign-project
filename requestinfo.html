@@ -123,7 +123,7 @@
                   <button class="btn-ans">Music</button>
                   <button class="btn-ans">Kids</button>
                   <button class="btn-ans">Rentals</button>
-                  <button class="btn-ans">Not Sure</button>
+                  <button class="btn-ans unsure">Not Sure</button>
                 </div>
 
                 <div class="controls">
@@ -135,10 +135,29 @@
             <div class="page" id="slide4">
                 <div id="question">Do you have a date for the event? </div>
                 <div id="answer-buttons" class="btn-grid">
-                  <button class="btn-ans">Answer1</button>
-                  <button class="btn-ans">Answer2</button>
-                  <button class="btn-ans">Answer3</button>
-                  <button class="btn-ans">Answer4</button>
+                  <p>I have a fixed date: <input type="date" id="datepicker"></p>
+                  <p>I have a flexible date: <input type="date" id="datepicker"></p>
+                  <p>I know the season<select name="cars">
+                    <option value="spring">Spring</option>
+                    <option value="summer">Summer</option>
+                    <option value="fall">Fall</option>
+                    <option value="winter">Winter</option>
+                  </select></p>
+                  <p>I know the month<select name="cars">
+                    <option value="jan">January</option>
+                    <option value="feb">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="aug">August</option>
+                    <option value="sept">September</option>
+                    <option value="oct">October</option>
+                    <option value="nov">November</option>
+                    <option value="dec">December</option>
+                  </select></p>
+                  <button class="btn-ans unsure">No</button>
                 </div>
 
                 <div class="controls">
@@ -153,7 +172,7 @@
                   <button class="btn-ans">Morning</button>
                   <button class="btn-ans">Afternoon</button>
                   <button class="btn-ans">Evening</button>
-                  <button class="btn-ans">Not Sure/ Flexible</button>
+                  <button class="btn-ans unsure">Not Sure/ Flexible</button>
                 </div>
 
                 <div class="controls">
@@ -167,8 +186,8 @@
                 <div id="answer-buttons" class="btn-grid">
                   <button class="btn-ans">Indoor</button>
                   <button class="btn-ans">Outdoor</button>
-                  <button class="btn-ans">Answer3</button>
-                  <button class="btn-ans">Answer4</button>
+                  <p>Specific Location: <input type="text"></input></p>
+                  <button class="btn-ans unsure">Not Sure</button>
                 </div>
 
                 <div class="controls">
@@ -200,10 +219,7 @@
             <div class="page" id="slide8">
                 <div id="question">What's your budget? </div>
                 <div id="answer-buttons" class="btn-grid">
-                  <button class="btn-ans">Answer1</button>
-                  <button class="btn-ans">Answer2</button>
-                  <button class="btn-ans">Answer3</button>
-                  <button class="btn-ans">Answer4</button>
+                  <p>$<input type="number"></input> to $<input type="number"></input></p>
                 </div>
 
                 <div class="controls">
@@ -215,15 +231,41 @@
             <div class="page" id="slide9">
                 <div id="question">Anything else we need to know? </div>
                 <div id="answer-buttons" class="btn-grid">
-                  <button class="btn-ans">Answer1</button>
-                  <button class="btn-ans">Answer2</button>
-                  <button class="btn-ans">Answer3</button>
-                  <button class="btn-ans">Answer4</button>
+                  <div class="job-form-entry col-lg-4 col-md-6 col-sm-12">
+                  <form action="action_page.php">
+                    <div class="form-group">
+                      <input type="text" placeholder="Type your message here">
+                    </div>
+                    <div class="form-group">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" placeholder="user@domain.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="phone">Phone Number</label>
+                      <input type="tel" id="phone" name="phone" placeholder="(123)-456-7890">
+                    </div>
+                    <div class="prefresponse">
+                      <p>Preferred response:</p>
+                      <form>
+                        <input type="radio" name="prefcontact" value="email" checked> Email<br>
+                        <input type="radio" name="prefcontact" value="phone"> Phone<br>
+                      </form>
+                    </div>
+
+                      </form>
                 </div>
 
                 <div class="controls">
                   <a href="#" class="indicator-control indicator-control-prev" data-slide="prev"><i class="fa fa-chevron-circle-left"></i></a>
-                  <a href="#" class="indicator-control indicator-control-next" data-slide="next"><i class="fa fa-chevron-circle-right"></i></a>
+                  <input type="submit" value="Submit">
                 </div>
    		       </div>
 
@@ -309,12 +351,6 @@
 
 	  </div>
   </footer>
-
-
-
-
-
-
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/basic.js"></script>
