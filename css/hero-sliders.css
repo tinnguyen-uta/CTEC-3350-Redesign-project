@@ -1,5 +1,6 @@
 @charset "utf-8";
-/* CSS Document */
+/* FAQ Component */
+
 
 /* Hero Slider */
 .hero-container {
@@ -66,7 +67,8 @@
 .hero-container .hero-slides .hero-description {
   background-color: rgba(0,0,0,0.5);
   color: #ffffff;
-  
+  flex: 1 0 100%;
+  -webkit-flex: 1 0 100%;
   flex: 1 0 100%; /* grow=1 shrink=0 basis=100% */
   -webkit-flex: 1 0 100%;
   padding: 1rem 3rem;

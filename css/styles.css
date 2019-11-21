@@ -8,9 +8,7 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Montserrat:400,400i,500&display=swap');
-
 @import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
-
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url("grid.css");
 @import url("typography.css");
@@ -46,12 +44,10 @@ img {
 
 /*-------------home style css-----------------*/
 /*-------------hero slider info -----------------*/
-.home-company-description {
 
-}
 
-.home-company-description p {
-	padding: 2rem 4rem;
+ .col-md-12.home-description p {
+	padding: 3rem;
 	margin: 0;
 
 }
@@ -66,7 +62,6 @@ img {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
-  margin-bottom: 1rem;
   margin: 1rem 1rem;
 
 }
@@ -89,24 +84,58 @@ img {
 }
 
 .home-popular-service-sliders .popular-service-item .popular-service-link {
-
+	text-decoration: none;
+	color: #797979;
 }
+
+
+@media (min-width: 992px) {
+
+	.container-fluid {
+		  max-width: 1200px;
+		  margin-left: auto;
+		  margin-right: auto;
+		  /*background-color: #dadada;*/
+		  padding-left: 1rem;
+		  padding-right: 1rem;
+	}
+}
+
+
+
+
+
+
 
 /*------------- end POPULAR SERVICES SLIDERS -----------------*/
 
 /*------------- CAREERS  -----------------*/
 
-.home-careers {
+.home-careers p {
 
-	padding: 1rem 0;
+	padding: 0rem 3rem 1rem 3rem;
+	margin-bottom: 0;
+}
+
+.home-careers h4 {
+	padding-top: 0rem;
+	margin-top: 0rem;
+	background-color: #0197A2;
+	width: 10rem;
+	border-radius: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.home-careers a {
+	text-decoration: none;
+	color: white;
+	padding: 0.5rem;
 }
 
 
 /*------------- end CAREERS  -----------------*/
->>>>>>> 76fc6f486fd07829a173e012528dc0c385d63667
-
-
-
 
 
 
@@ -117,6 +146,15 @@ img {
   background-color: #0197A2;
   border: transparent;
   color: #FFFFFF;
+	padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+	margin:1rem;
+}
+
+.btn-ans.unsure{
+	background-color: #FF9D1E;
 }
 
 .btn{
@@ -124,18 +162,16 @@ img {
   border: transparent;
 }
 
-.next-btn{
-  content: "\f138";
-	font-family: "FontAwesome";
-	padding-left: 1rem;
+a.indicator-control-next{
   color: #FF9D1E;
+	font-size: 2rem;
 }
 
-.back-btn{
-  content: "\f137";
-	padding-left: 1rem;
+a.indicator-control-prev{
   color: #0197A2;
+	font-size: 2rem;
 }
+
 
 .hide{
   display: none;
@@ -144,8 +180,7 @@ img {
 .page{
   display: none;
   width: 100%;
-
-  padding:1rem 2rem;
+	padding-bottom: 1rem;
 }
 
 .active{
@@ -164,6 +199,10 @@ img {
                 cursor:pointer;
 }
 
+ol.slide-indicators{
+	padding: 0;
+}
+
 .request-container .slide-indicators li {
                 width:20px;
                 height:20px;
@@ -176,4 +215,56 @@ img {
 .request-container .slide-indicators li.active {
                 background-color:orange;
 
+}
+.btn-col{
+		display: flex;
+		display: -webkit-flex;
+		flex-flow: column nowrap;
+		-webkit-flex-flow: column nowrap;
+		justify-content: flex-start;
+		-webkit-justify-content: flex-start;
+		align-items: flex-start;
+		-webkit-align-items: flex-start;
+		align-content: center;
+		-webkit-align-content: center;
+}
+
+.btn-grid{
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	justify-content: center;
+	-webkit-justify-content: center;
+	align-items: flex-start;
+	-webkit-align-items: flex-start;
+	align-content: center;
+	-webkit-align-content: center;
+}
+
+.indicators-align{
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	justify-content: center;
+	-webkit-justify-content: center;
+	align-items: center;
+	-webkit-align-items: center;
+	align-content: center;
+	-webkit-align-content: center;
+}
+
+.controls{
+	padding-top: 1rem;
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: row nowrap;
+	-webkit-flex-flow: row nowrap;
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
+	align-items: space-around;
+	-webkit-align-items: space-around;
+	align-content: center;
+	-webkit-align-content: center;
 }
