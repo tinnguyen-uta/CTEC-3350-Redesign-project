@@ -6,10 +6,7 @@ header {
   padding-right: 0rem;
 }
 
-@media (min-width: 576px) { header { max-width: 100%; } }
-@media (min-width: 768px) { header { max-width: 100%; } }
-@media (min-width: 992px) { header {max-width: 960px; } }
-@media (min-width: 1200px) { header {max-width: 1140px; } }
+
 
 .navbar {
   display: flex;
@@ -24,8 +21,26 @@ header {
   -webkit-align-content: flex-start;
   padding:0;
   text-transform: uppercase;
+	
 
 }
+
+@media (min-width: 992px) { 
+	
+	.navbar {
+		  max-width: 1200px;
+		  margin-left: auto;
+		  margin-right: auto;
+		  /*background-color: #dadada;*/
+		  padding-left: 1rem;
+		  padding-right: 1rem;
+	} 
+}
+
+
+
+
+
 
 .navbar .navbar-brand {
   display: block;
