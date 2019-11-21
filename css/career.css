@@ -1,0 +1,10 @@
+.career-header-bio {
+  background-color: #eeeeee;
+}
+
+.career-values {
+  display: flex;
+  -webkit-display: flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+}
