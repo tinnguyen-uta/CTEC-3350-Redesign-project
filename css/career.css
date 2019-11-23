@@ -2,13 +2,29 @@
   background-color: #eeeeee;
 }
 
+.career-values .career-hiring h3 {
+  font-size:1.5rem
+}
+
 .career-values {
   display: flex;
   -webkit-display: flex;
   flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
 }
 
 .career-value-1 img, .career-value-2 img, .career-value-3 img {
   border-radius: 50%;
-  height:6%;
+}
+
+.career-hiring {
+  display: flex;
+  -webkit-display: flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+
+}
+
+.career-hiring img {
+  border-radius: 50%;
 }
