@@ -1,0 +1,14 @@
+.career-header-bio {
+  background-color: #eeeeee;
+}
+
+.career-values {
+  display: flex;
+  -webkit-display: flex;
+  flex-flow: row wrap;
+}
+
+.career-value-1 img, .career-value-2 img, .career-value-3 img {
+  border-radius: 50%;
+  height:6%;
+}
