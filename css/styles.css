@@ -152,6 +152,7 @@ img {
   border-radius: 4px;
   cursor: pointer;
 	margin:1rem;
+	width: 100%;
 }
 
 .btn-ans.unsure{
@@ -228,6 +229,22 @@ ol.slide-indicators{
 		-webkit-align-items: flex-start;
 		align-content: center;
 		-webkit-align-content: center;
+		width: 50%;
+		padding: 0 4rem;
+}
+#col-slide-7{
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: column nowrap;
+	-webkit-flex-flow: column nowrap;
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+	align-items: flex-start;
+	-webkit-align-items: flex-start;
+	align-content: center;
+	-webkit-align-content: center;
+	width: 33%;
+	padding: 0 3rem;
 }
 
 .btn-grid{
