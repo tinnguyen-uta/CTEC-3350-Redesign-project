@@ -150,8 +150,11 @@
             <div class="page" id="slide4">
                 <div id="question"><h2>Do you have a date for the event?</h2> </div>
                 <div id="answer-buttons" class="btn-grid">
+                  <div class="btn-col">
                   <p>I have a fixed date: <input type="date" id="datepicker"></p>
                   <p>I have a flexible date: <input type="date" id="datepicker"></p>
+                </div>
+                <div class="btn-col">
                   <p>I know the season<select name="cars">
                     <option value="spring">Spring</option>
                     <option value="summer">Summer</option>
@@ -172,8 +175,11 @@
                     <option value="nov">November</option>
                     <option value="dec">December</option>
                   </select></p>
+                </div>
+                <div class="button-match">
                   <button class="btn-ans unsure">No</button>
                 </div>
+              </div>
 
                 <div class="controls">
                   <a href="#" class="indicator-control indicator-control-prev" data-slide="prev"><i class="fa fa-chevron-circle-left"></i></a>
@@ -203,11 +209,15 @@
             <div class="page" id="slide6">
                 <div id="question"><h2>Where is the event?</h2> </div>
                 <div id="answer-buttons" class="btn-grid">
+                  <div class="btn-row">
                   <button class="btn-ans">Indoor</button>
                   <button class="btn-ans">Outdoor</button>
+                </div>
                   <p>Specific Location: <input type="text"></input></p>
+                  <div class="button-match">
                   <button class="btn-ans unsure">Not Sure</button>
                 </div>
+              </div>
 
                 <div class="controls">
                   <a href="#" class="indicator-control indicator-control-prev" data-slide="prev"><i class="fa fa-chevron-circle-left"></i></a>
@@ -218,17 +228,17 @@
             <div class="page" id="slide7">
                 <div id="question"><h2>Estimated number of people attending</h2> </div>
                 <div id="answer-buttons" class="btn-grid">
-                  <div id="col-slide-7">
+                  <div class="col-slide-7">
                   <button class="btn-ans">0-25</button>
                   <button class="btn-ans">100-150</button>
                   <button class="btn-ans">300-400</button>
                 </div>
-                <div id="col-slide-7">
+                <div class="col-slide-7">
                   <button class="btn-ans">25-50</button>
                   <button class="btn-ans">150-200</button>
                   <button class="btn-ans">400-500</button>
                 </div>
-                <div id="col-slide-7">
+                <div class="col-slide-7">
                   <button class="btn-ans">50-100</button>
                   <button class="btn-ans">200-300</button>
                   <button class="btn-ans">500+</button>
@@ -244,7 +254,10 @@
             <div class="page" id="slide8">
                 <div id="question"><h2>What's your budget?</h2> </div>
                 <div id="answer-buttons" class="btn-grid">
-                  <p>$<input type="number"></input> to $<input type="number"></input></p>
+                  <p class="input-row">$<input type="number"></input> to $<input type="number"></input></p>
+                  <div class="button-match">
+                  <button class="btn-ans unsure">Not Sure</button>
+                </div>
                 </div>
 
                 <div class="controls">
@@ -256,11 +269,11 @@
             <div class="page" id="slide9">
                 <div id="question"><h2>Anything else we need to know?</h2> </div>
                 <div id="answer-buttons" class="btn-grid">
-                  <div class="job-form-entry col-lg-4 col-md-6 col-sm-12">
-                    <div class="btn-col">
+
+                    <div class="req-contact-col">
                   <form action="action_page.php">
                     <div class="form-group">
-                      <input type="text" placeholder="Type your message here">
+                      <input  class="ri-message"type="text" placeholder="Type your message here">
                     </div>
                     <div class="form-group">
                       <label for="fname">First Name</label>
@@ -287,9 +300,9 @@
                     </div>
 
                       </form>
-                </div>
 
-                <div class="controls">
+
+                <div id="form-controls">
                   <a href="#" class="indicator-control indicator-control-prev" data-slide="prev"><i class="fa fa-chevron-circle-left"></i></a>
                   <input type="submit" value="Submit">
                 </div>

@@ -225,27 +225,43 @@ ol.slide-indicators{
 		-webkit-flex-flow: column nowrap;
 		justify-content: flex-start;
 		-webkit-justify-content: flex-start;
-		align-items: flex-start;
-		-webkit-align-items: flex-start;
+		align-items: center;
+		-webkit-align-items: center;
 		align-content: center;
 		-webkit-align-content: center;
 		width: 50%;
 		padding: 0 4rem;
 }
-#col-slide-7{
+
+.btn-row{
+		display: flex;
+		display: -webkit-flex;
+		flex-flow: row nowrap;
+		-webkit-flex-flow: row  nowrap;
+		justify-content: flex-start;
+		-webkit-justify-content: flex-start;
+		align-items: flex-start;
+		-webkit-align-items: flex-start;
+		align-content: center;
+		-webkit-align-content: center;
+		width: 100%;
+		padding: 0 4rem;
+}
+.col-slide-7{
 	display: flex;
 	display: -webkit-flex;
 	flex-flow: column nowrap;
 	-webkit-flex-flow: column nowrap;
-	justify-content: flex-start;
-	-webkit-justify-content: flex-start;
-	align-items: flex-start;
-	-webkit-align-items: flex-start;
+	justify-content: center;
+	-webkit-justify-content: center;
+	align-items: center;
+	-webkit-align-items: center;
 	align-content: center;
 	-webkit-align-content: center;
-	width: 33%;
-	padding: 0 3rem;
+	width: 30%;
+	padding: 0 1rem;
 }
+
 
 .btn-grid{
 	display: flex;
@@ -254,8 +270,8 @@ ol.slide-indicators{
 	-webkit-flex-flow: row wrap;
 	justify-content: center;
 	-webkit-justify-content: center;
-	align-items: flex-start;
-	-webkit-align-items: flex-start;
+	align-items: center;
+	-webkit-align-items: center;
 	align-content: center;
 	-webkit-align-content: center;
 }
@@ -274,15 +290,86 @@ ol.slide-indicators{
 }
 
 .controls{
-	padding-top: 1rem;
+	padding: 1rem 4rem;
 	display: flex;
 	display: -webkit-flex;
 	flex-flow: row nowrap;
 	-webkit-flex-flow: row nowrap;
-	justify-content: space-around;
-	-webkit-justify-content: space-around;
-	align-items: space-around;
-	-webkit-align-items: space-around;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	align-content: center;
+	-webkit-align-content:center;
+}
+
+.button-match{
+	padding: 0 4rem;
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	-webkit-justify-content: center;
+	align-items: center;
+	-webkit-align-items: center;
 	align-content: center;
 	-webkit-align-content: center;
+
 }
+
+input[type=date],input[type=email],input[type=tel] {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+}
+
+input[type=number]{
+	width: 42%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+}
+
+#form-controls{
+	padding-top: 3rem;
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: row nowrap;
+	-webkit-flex-flow: row nowrap;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	align-content: center;
+	-webkit-align-content:center;
+}
+
+.ri-message{
+	height: 7rem;
+}
+
+.page p{
+	width: 100%;
+	padding: 0 5rem;
+}
+
+p.input-row{
+	padding: 0;
+}
+
+.req-contact-col{
+width: 65%;
+}
+
+a.indicator-control-prev:hover {
+color: #3FB6BF;}
+
+a.indicator-control-next:hover {
+color:#ffc478;}
+
+.btn-ans:hover {
+background-color: #3FB6BF;}
+
+.btn-ans.unsure:hover {
+background-color: #ffc478;}
