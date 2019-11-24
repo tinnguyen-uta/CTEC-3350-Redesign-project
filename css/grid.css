@@ -16,16 +16,16 @@ body {
   padding-right: 1rem;
 }
 
-@media (min-width: 576px) { .container { max-width: 100%; } }
-@media (min-width: 768px) { .container { max-width: 100%; } }
+@media (min-width: 576px) { .container { max-width: 540px; } }
+@media (min-width: 768px) { .container { max-width: 720px; } }
 @media (min-width: 992px) { .container {max-width: 960px; } }
 @media (min-width: 1200px) { .container {max-width: 1140px; } }
 
 .container-fluid {
   max-width: 100%;
   /*background-color: #cccccc;*/
-  padding-left: 0rem;
-  padding-right: 0rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .row {
@@ -318,6 +318,7 @@ body {
     flex: 0 0 calc((100% / 12) * 5);
     -webkit-flex: 0 0 calc((100% / 12) * 5);
     max-width: calc((100% / 12) * 5);
+
   }
 
   .col-lg-4 {

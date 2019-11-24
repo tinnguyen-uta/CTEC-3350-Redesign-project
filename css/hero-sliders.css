@@ -5,6 +5,7 @@
 /* Hero Slider */
 .hero-container {
   position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .hero-container .hero-indicators {
@@ -49,6 +50,7 @@
   -webkit-flex: 1 0 100%;
   position: relative;
   display: none;
+  height: 20rem;
 }
 
 .hero-container .hero-slides .hero-slide.active {
@@ -136,4 +138,15 @@
 .hero-container .hero-control.hero-control-next {
   right: 0;
 }
+
+.hero-banner {
+	padding:0;
+}
+
+@media (min-width: 992px) {.hero-banner {
+	padding-left:1rem;
+	padding-right:1rem;
+} }
+
+
 /* End of Hero Slider */

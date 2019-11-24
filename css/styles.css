@@ -18,7 +18,9 @@
 @import url("careers-form.css");
 @import url("career.css");
 
-
+html {
+	background-color: white;
+}
 
 body {
 	margin:0;
@@ -63,9 +65,30 @@ img {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
-  margin: 1rem 1rem;
+  padding: 1rem 1rem;
+ 
 
 }
+
+.popular-service-item {
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: column wrap;
+  -webkit-flex-flow: column wrap;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  align-items: flex-start;
+  -webkit-align-itmes: flex-start;
+  align-content: flex-start;
+  -webkit-align-content: flex-start;
+}
+
+.popular-service-photo {
+	width:15rem;
+	height:20rem;
+	object-fit: cover;
+}
+
 
 .home-popular-service-sliders::-webkit-scrollbar {
 	  display: none;
@@ -87,6 +110,11 @@ img {
 .home-popular-service-sliders .popular-service-item .popular-service-link {
 	text-decoration: none;
 	color: #797979;
+}
+
+.popular-service {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 5rem;
 }
 
 
@@ -111,6 +139,11 @@ img {
 /*------------- end POPULAR SERVICES SLIDERS -----------------*/
 
 /*------------- CAREERS  -----------------*/
+
+.home-careers { 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 5rem;
+}
 
 .home-careers p {
 
