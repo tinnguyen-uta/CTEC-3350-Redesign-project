@@ -71,16 +71,7 @@ img {
 }
 
 .popular-service-item {
-  display: flex;
-  display: -webkit-flex;
-  flex-flow: column wrap;
-  -webkit-flex-flow: column wrap;
-  justify-content: space-around;
-  -webkit-justify-content: space-around;
-  align-items: flex-start;
-  -webkit-align-itmes: flex-start;
-  align-content: flex-start;
-  -webkit-align-content: flex-start;
+  text-align: center;
 }
 
 .popular-service-photo {
@@ -113,8 +104,8 @@ img {
 }
 
 .popular-service {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	margin-bottom: 5rem;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	
 }
 
 
@@ -141,8 +132,9 @@ img {
 /*------------- CAREERS  -----------------*/
 
 .home-careers { 
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 	margin-bottom: 5rem;
+	
 }
 
 .home-careers p {
