@@ -17,6 +17,7 @@
 @import url("footer.css");
 @import url("careers-form.css");
 @import url("career.css");
+@import url("404-error.css");
 
 html {
 	background-color: white;
@@ -30,6 +31,7 @@ body {
 
 header {
 	margin-bottom:0.5rem;
+	
 }
 
 
