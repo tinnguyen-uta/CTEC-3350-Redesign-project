@@ -28,7 +28,7 @@
 .career-hiring {
  
    padding-bottom: 5rem;
-	text-align: center;
+   text-align: center;
 
 }
 
@@ -46,10 +46,15 @@
 .careers-hiring-1 a, .careers-hiring-2 a, .careers-hiring-3 a {
 	text-decoration: none;
 	color: white;
+	
 }
 
 .careers-hiring-1 h4, .careers-hiring-2 h4, .careers-hiring-3 h4 {
 	background-color: #0197A2;
 	width: 10rem;
+	text-align: center;
+	margin-left: auto;
+	margin-right:auto;
+	
 	
 }
