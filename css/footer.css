@@ -18,6 +18,11 @@ footer {
   -webkit-flex-flow: column wrap;
 }
 
+@media (min-width: 992px) {.footer-info {
+	margin-left:1rem;
+	margin-right:1rem;
+} }
+
 .footerbar .footer-info {
 	background-color: #0197A2;
 	width: 100%;
@@ -140,7 +145,7 @@ footer {
 
 .bottom-bar {
 	 
-	background-color:#DEDEDE;
+	background-color:#EEEEEE;
 }
 
 
@@ -166,6 +171,7 @@ footer {
 	list-style-type: none;
 	margin: 1.2rem 0 0 0;
 	padding: 0;
+	
 	
 }
 
