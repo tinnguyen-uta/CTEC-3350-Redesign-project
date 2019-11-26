@@ -27,8 +27,6 @@ header {
   -webkit-align-content: flex-start;
   padding:0;
   text-transform: uppercase;
-
-
 }
 
 @media (min-width: 992px) {
@@ -60,7 +58,7 @@ header {
 
 .navbar .navbar-cheklist {
   width: 3rem;
-  height: 3rem;
+  height: 2.7rem;
   font-size: 1.25rem;
   background-color: #FF9D1E;
   color: white;
@@ -93,7 +91,8 @@ header {
   background-color: #3FB6BF;
 }
 
-.navbar #mainNavigation .navbar-nav .navbar-item {}
+.navbar #mainNavigation .navbar-nav .navbar-item {
+}
 
   .navbar #mainNavigation .navbar-nav .navbar-item .navbar-link,
   .navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item .dropdown-link {
@@ -102,8 +101,6 @@ header {
     display: block;
     overflow: hidden;
     padding: 0.7rem 1.5rem;
-
-
   }
 
 navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item {
