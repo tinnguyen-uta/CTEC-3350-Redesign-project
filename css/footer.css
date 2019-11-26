@@ -16,6 +16,8 @@ footer {
   display: -webkit-flex;
   flex-flow: column wrap;
   -webkit-flex-flow: column wrap;
+  background-color: #0197A2;
+ 
 }
 
 @media (min-width: 992px) {.footer-info {
