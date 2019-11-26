@@ -220,6 +220,10 @@
                   <button class="btn-ans">Costume</button>
                   <button class="btn-ans">Carnival</button>
                 </div>
+                <p>Specific Location: <input type="text"></input></p>
+                <div class="button-match">
+                <button class="unsure">Not Sure</button>
+              </div>
                 </div>
 
                 <div class="controls">
@@ -253,10 +257,12 @@
                 <div id="question"><h2>Do you have a date for the event?</h2> </div>
                 <div id="answer-buttons" class="btn-grid">
                   <div class="btn-col">
+                    <h3>YES</h3>
                   <p>I have a fixed date: <input type="date" id="datepicker"></p>
                   <p>I have a flexible date: <input type="date" id="datepicker"></p>
                 </div>
                 <div class="btn-col">
+                  <h3>NO</h3>
                   <p>I know the season<select name="cars">
                     <option value="spring">Spring</option>
                     <option value="summer">Summer</option>
@@ -395,10 +401,10 @@
                     </div>
                     <div class="prefresponse">
                       <p>Preferred response:</p>
-                      <form class="radio-ri">
-                        <input type="radio" name="prefcontact" value="email" checked> Email<br>
-                        <input type="radio" name="prefcontact" value="phone"> Phone<br>
-                      </form>
+
+                        <div class="radio-align"><input type="radio" name="prefcontact" value="email" checked> Email<br></div>
+                        <div class="radio-align"><input type="radio" name="prefcontact" value="phone"> Phone<br></div>
+
                     </div>
 
                       </form>
@@ -476,6 +482,13 @@
 
 			  </div>
 		  </div>
+
+
+
+
+
+
+
 	  </div>
   </footer>
 
