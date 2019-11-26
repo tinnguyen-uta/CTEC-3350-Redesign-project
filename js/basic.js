@@ -64,10 +64,6 @@ let indicatorControl = $(".indicator-control") ;
 let indicatorz = $(".slide-indicators li") ;
 
 indicatorz.on("click", function(){
-  let parentContainer= $(this).closest(".request-container")
-  let currentSlide =$(parentContainer).find(".slide-indicators li.active").index();
-  let nextSlide = $(this).index();
-
   slideHandler(currentSlide, nextSlide, parentContainer);
 });
 
@@ -85,13 +81,7 @@ indicatorControl.on("click", function(){
     nextSlide = currentSlide -1;
   }
 
-  if (nextSlide < 0){
-    nextSlide= numberOfSlides;
-  } else if (nextSlide > numberOfSlides) {
-    nextSlide = 0;
-  }else{
-    nextSlide = nextSlide;
-  }
+
 
   console.log(direction, numberOfSlides, nextSlide, currentSlide);
 
@@ -103,8 +93,10 @@ function slideHandler(current, next, container, indicators){
   $(container).find(".page").eq(current).removeClass("active");
   $(container).find(".page").eq(next).addClass("active");
 
-  $(container).find(".slide-indicators li").eq(current).removeClass("active");
+
   $(container).find(".slide-indicators li").eq(next).addClass("active");
+  $(container).find(".slide-indicators li").eq(current).removeClass("active");
+
 };
 
 /** end click to next question function **/

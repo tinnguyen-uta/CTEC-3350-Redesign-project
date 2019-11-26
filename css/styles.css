@@ -26,12 +26,12 @@ html {
 body {
 	margin:0;
 	padding:0;
-	
+
 }
 
 header {
 	margin-bottom:0.5rem;
-	
+
 }
 
 
@@ -75,7 +75,7 @@ img {
   flex-wrap: nowrap;
   overflow-x: auto;
   padding: 1rem 1rem;
- 
+
 
 }
 
@@ -114,7 +114,7 @@ img {
 
 .popular-service {
 	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-	
+
 }
 
 
@@ -140,10 +140,10 @@ img {
 
 /*------------- CAREERS  -----------------*/
 
-.home-careers { 
+.home-careers {
 	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 	margin-bottom: 5rem;
-	
+
 }
 
 .home-careers p {
@@ -250,6 +250,11 @@ ol.slide-indicators{
 
 .request-container .slide-indicators li.active {
                 background-color:orange;
+
+}
+
+.request-container .slide-indicators li.inactive {
+                background-color:#dadada;
 
 }
 .btn-col{
