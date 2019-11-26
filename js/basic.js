@@ -10,6 +10,21 @@
 // console.log("hello world");
 
 $(function(){
+	let checklistToggle = $(".navbar .navbar-cheklist");
+
+  checklistToggle.on("click", function(){
+    console.log("I was clicked on checklist button");
+    let checklist = $(".containter-fluid.check-list");
+    checklist.toggle(100);
+  });
+});
+
+
+
+
+
+
+$(function(){
   /*
   * Menu toggler
   * 1. When a user clicks on the toggler the navigation should open or close
@@ -22,6 +37,7 @@ $(function(){
     console.log("I was clicked");
     let mainNavigation = $("#mainNavigation");
     mainNavigation.toggle(500);
+	
   });
 
   let dropdown = $(".dropdown > .navbar-link");
@@ -35,7 +51,7 @@ $(function(){
     dropdownMenu.toggle();
   });
 
-
+  
 
 
 });
@@ -52,6 +68,8 @@ $(function(){
     questionBottomMenu.toggle(100);
   });
 });
+
+
 
 
 

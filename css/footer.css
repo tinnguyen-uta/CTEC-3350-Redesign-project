@@ -175,7 +175,7 @@ footer {
 	
 }
 
-.bottom-bar .question-bottom-bar-dropup .question-dropup-menu .dropup-item .dropup-link {
+.bottom-bar .question-bottom-bar-dropup .question-dropup-menu .dropup-link {
 	text-decoration: none;
 	color: white;
 }
@@ -196,6 +196,8 @@ footer {
 	
 	.bottom-bar {
 		position: relative;
+		max-width: 1200px;
+		
 		
 	}
 	
@@ -204,7 +206,7 @@ footer {
 		text-align: center;
 		position: absolute;
 		bottom: 2rem;
-		right: 3rem;
+		right: 0.5rem;
 		border-radius: 1rem;
 	}
 	.bottom-bar .question-bottom-bar-dropup {
@@ -212,13 +214,13 @@ footer {
 		display: none;
 		position: absolute;
 		bottom: 5rem;
-		right: 3rem;
+		right: 0.5rem;
 		border-radius: 1rem;
 	}
 	
 	.bottom-bar .question-bottom-bar-dropup .question-dropup-menu .dropup-item {
 		border-radius: 1rem;
-		border:3px solid orange;
+		
 	}
 }
 
