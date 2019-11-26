@@ -38,10 +38,6 @@ header {
 }
 
 
-
-
-
-
 .navbar .navbar-brand {
   display: block;
   overflow: hidden;
@@ -77,6 +73,7 @@ header {
   -webkit-flex: 1 0 100%;
   background-color: grey;
   display: none;
+  z-index: 5;
 }
 
 .navbar #mainNavigation .navbar-nav {
@@ -222,6 +219,119 @@ navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item {
 
 
 
+/*--------------------------checklist------------------------*/
+
+
+
+.checklist-input {margin:0 5px;}
+
+.navbar {
+	position: relative;
+	
+}
+.check-list {
+ 	position: absolute;
+	top: 3rem;
+	right:1rem;
+	z-index: 2;
+	max-width: 100%;
+	background-color:white;
+	border: 1px solid #E1E8EE;
+	display: none;
+
+	
+}
+
+.check-list .title {
+  height: 60px;
+  border-bottom: 1px solid #E1E8EE;
+  padding: 1rem 1.5rem;
+  color: #5E6977;
+  font-size: 1rem;
+  font-weight: 800;
+	
+}
+
+
+.check-list .item {
+  padding: 20px 30px;
+  height: 7rem;
+  margin: 0;
+  max-width: 100%;
+}
+
+.check-list .item:nth-child(3) {
+  border-top:  1px solid #E1E8EE;
+  border-bottom:  1px solid #E1E8EE;
+
+}
+
+
+.check-list .item .buttons {
+  	  display: flex;
+      display: -webkit-flex;
+      flex-flow: column wrap;
+      -webkit-flex-flow: column wrap;
+      justify-content: center;
+      -webkit-justify-content: center;
+      align-items: center;
+      -webkit-align-items: center;
+      align-content: center;
+      -webkit-align-content: center;
+	  height: 100%;
+	  font-size: 25px;
+}
+
+.check-list .item .buttons .delete-btn {
+	cursor: pointer;
+}
+
+.check-list .item .description {
+	  display: flex;
+      display: -webkit-flex;
+      flex-flow: column wrap;
+      -webkit-flex-flow: column wrap;
+      justify-content: center;
+      -webkit-justify-content: center;
+      align-items: center;
+      -webkit-align-items: center;
+      align-content: center;
+      -webkit-align-content: center;
+	  height: 100%;
+}
+.check-list .item .quantity {
+	  display: flex;
+      display: -webkit-flex;
+      flex-flow: row wrap;
+      -webkit-flex-flow: row wrap;
+	  justify-content: center;
+      -webkit-justify-content: center;
+      align-items: center;
+      -webkit-align-items: center;
+      align-content: center;
+      -webkit-align-content: center;
+	  height: 100%;
+}
+
+.quantity .checklist-input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 1rem;
+  color: #43484D;
+  font-weight: 300;
+}
+
+ .plus-btn, .minus-btn{
+  width: 30px;
+  height: 30px;
+  background-color: #E1E8EE;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
 
 
 
@@ -230,13 +340,3 @@ navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item {
 
 
 
-
-
-
-  /*
-    background-image
-    background-repeat
-    background-position
-    background-size
-    background-color
-  */

@@ -10,6 +10,21 @@
 // console.log("hello world");
 
 $(function(){
+	let checklistToggle = $(".navbar .navbar-cheklist");
+
+  checklistToggle.on("click", function(){
+    console.log("I was clicked on checklist button");
+    let checklist = $(".containter-fluid.check-list");
+    checklist.toggle(100);
+  });
+});
+
+
+
+
+
+
+$(function(){
   /*
   * Menu toggler
   * 1. When a user clicks on the toggler the navigation should open or close
@@ -22,6 +37,7 @@ $(function(){
     console.log("I was clicked");
     let mainNavigation = $("#mainNavigation");
     mainNavigation.toggle(500);
+
   });
 
   let dropdown = $(".dropdown > .navbar-link");
@@ -56,6 +72,8 @@ $(function(){
 
 
 
+
+
 /** Request info functions**/
 
 /** click to next question**/
@@ -63,9 +81,14 @@ $(function(){
 let indicatorControl = $(".indicator-control") ;
 let indicatorz = $(".slide-indicators li") ;
 
-indicatorz.on("click", function(){
+/* indicatorz.on("click", function(){
+  let parentContainer= $(this).closest(".request-container")
+  let currentSlide =$(parentContainer).find(".slide-indicators li.active").index();
+  let nextSlide = $(this).index();
+
   slideHandler(currentSlide, nextSlide, parentContainer);
-});
+}); */
+// Since you are using the indicators as a progress bar rather than a button I commented this code out so that they don't become clickable
 
 indicatorControl.on("click", function(){
   console.log(this);
@@ -86,18 +109,22 @@ indicatorControl.on("click", function(){
   console.log(direction, numberOfSlides, nextSlide, currentSlide);
 
   slideHandler(currentSlide, nextSlide, parentContainer);
+
+	indicatorsHandler(direction, currentSlide, nextSlide, parentContainer);
 });
 
-function slideHandler(current, next, container, indicators){
+function slideHandler(current, next, container, indicators){ /* You are not passing Indicators to the function */
   console.log(current, next);
   $(container).find(".page").eq(current).removeClass("active");
   $(container).find(".page").eq(next).addClass("active");
-
-
-  $(container).find(".slide-indicators li").eq(next).addClass("active");
-  $(container).find(".slide-indicators li").eq(current).removeClass("active");
-
 };
+
+function indicatorsHandler(direction, current, next, container){ // Created it's own function for the indicator Handler
+	if(direction === 'prev'){ // Check the direction and if the direction is going backwards then remove the class active since we are proactively adding that class
+		$(container).find(".slide-indicators li").eq(current).removeClass("active");
+	}
+  $(container).find(".slide-indicators li").eq(next).addClass("active");
+}
 
 /** end click to next question function **/
 
