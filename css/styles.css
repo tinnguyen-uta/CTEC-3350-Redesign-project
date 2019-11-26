@@ -219,8 +219,16 @@ img {
 	width: 100%;
 }
 
-.btn-ans.unsure{
+.unsure{
 	background-color: #FF9D1E;
+	border: transparent;
+  color: #FFFFFF;
+	padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+	margin:1rem;
+	width: 100%;
 }
 
 .btn{
@@ -384,7 +392,7 @@ ol.slide-indicators{
 
 }
 
-input[type=date],input[type=email],input[type=tel] {
+input[type=date],input[type=email],input[type=tel],input[type=textarea] {
   width: 100%;
   padding: 0.5rem 0.75rem;
   border: 1px solid #ccc;
@@ -400,6 +408,12 @@ input[type=number]{
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
+}
+
+input[type=textarea] {
+	padding-bottom: 3rem;
+	rows: 5;
+	columns: 40;
 }
 
 #form-controls{
@@ -422,9 +436,7 @@ input[type=number]{
 	padding-top: 1rem;
 }
 
-.ri-message{
-	height: 7rem;
-}
+
 
 .page p{
 	width: 100%;
@@ -448,11 +460,19 @@ width: 65%;
 a.indicator-control-prev:hover {
 color: #3FB6BF;}
 
+.hoverblue{
+	background-color: #3FB6BF;
+}
+
+.hoverorange{
+	background-color:#ffc478;;
+}
+
 a.indicator-control-next:hover {
 color:#ffc478;}
 
 .btn-ans:hover {
 background-color: #3FB6BF;}
 
-.btn-ans.unsure:hover {
+.unsure:hover {
 background-color: #ffc478;}

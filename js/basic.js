@@ -129,13 +129,25 @@ function indicatorsHandler(direction, current, next, container){ // Created it's
 /** end click to next question function **/
 
 
+$(function(){
+	let requestbutton = $(".btn-ans");
 
+  requestbutton.on("click", function(){
+    console.log("I was clicked");
+    $(this).toggleClass('hoverblue');
 
+  });
+});
 
+$(function(){
+	let unsurebutton = $(".unsure");
 
+	unsurebutton.on("click", function(){
+	    console.log("I have been clicked");
+	    $(this).toggleClass('hoverorange');
 
-
-
+  });
+});
 
 
 
