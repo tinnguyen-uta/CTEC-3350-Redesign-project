@@ -379,6 +379,14 @@ input[type=number]{
 	-webkit-align-content:center;
 }
 
+.prefresponse{
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: row nowrap;
+	-webkit-flex-flow: row nowrap;
+	padding-top: 1rem;
+}
+
 .ri-message{
 	height: 7rem;
 }
@@ -386,6 +394,12 @@ input[type=number]{
 .page p{
 	width: 100%;
 	padding: 0 5rem;
+}
+
+.prefresponse p{
+	text-align: left;
+	padding: 0;
+	width: 25%;
 }
 
 p.input-row{
