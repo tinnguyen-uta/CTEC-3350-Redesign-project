@@ -1,3 +1,29 @@
+.btn-moreinfo {
+  background-color: #FF9D1E;
+  border: transparent;
+  color: #FFFFFF;
+	padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+	margin-bottom: 1rem 0;
+	width: 100%;
+  text-transform: uppercase;
+}
+
+.btn-addtoevent {
+  background-color: #0197A2;
+  border: transparent;
+  color: #FFFFFF;
+	padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+	margin-bottom: 1rem 0;
+	width: 100%;
+  text-transform: uppercase;
+}
+
+/* - - - - - - - - - - - RESPONSIVE - - - - - - - - - - - */
+
 .image-link {
   display: block;
   width: 100%;
@@ -15,13 +41,7 @@
 .service-image01 {
   background-image: url("../images/project01.jpg");
   background-position:center;
-  opacity:.5;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
-  color: white;
-}
-
-.page-image:hover {
-  opacity:1;
   color: white;
 }
 
@@ -33,7 +53,7 @@
     margin-bottom: 3rem;
   }
 
-  .project-image {
+  .service-image01 {
     height: 15rem;
     margin-bottom:1rem;
   }
@@ -46,7 +66,7 @@
     margin-bottom: 3rem;
   }
 
-  .project-image {
+  .service-image01 {
     height: 20rem;
     margin-bottom:1rem;
   }
@@ -58,13 +78,9 @@
     margin-bottom: 0;
   }
 
-  .project-image {
+  .service-image01 {
     height: 12rem;
     margin-bottom:1rem;
-  }
-
-  .contact-form {
-    margin: 0 7rem;
   }
 }
 
@@ -73,14 +89,11 @@
     height: 18rem;
   }
 
-  .project-image {
+  .service-image01 {
     height: 12rem;
     margin-bottom:1rem;
   }
 
-  .contact-form {
-    margin: 0 14rem;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -88,7 +101,7 @@
     height: 20rem;
   }
 
-  .project-image {
+  .service-image01 {
     height: 14rem;
     margin-bottom:1rem;
   }
