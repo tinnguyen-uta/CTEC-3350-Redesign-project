@@ -7,6 +7,7 @@ footer {
   margin-right: auto;
   padding-left: 0rem;
   padding-right: 0rem;
+  margin-top: 5rem;
 }
 
 
@@ -132,8 +133,8 @@ footer {
 
 .footer-acedemic-only {
 	background-color: #BFBFBF;
-	
-	
+
+
 }
 
 .footer-acedemic-only h6 {
@@ -146,7 +147,7 @@ footer {
 
 
 .bottom-bar {
-	 
+
 	background-color:#EEEEEE;
 }
 
@@ -161,7 +162,7 @@ footer {
 	cursor:pointer;
 	color: white;
 	font-weight: 700;
-	
+
 }
 
 .bottom-bar .question-bottom-bar-dropup {
@@ -173,8 +174,8 @@ footer {
 	list-style-type: none;
 	margin: 1.2rem 0 0 0;
 	padding: 0;
-	
-	
+
+
 }
 
 .bottom-bar .question-bottom-bar-dropup .question-dropup-menu .dropup-link {
@@ -191,18 +192,18 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 1rem;
-	
+
 }
 
 @media (min-width: 992px) {
-	
+
 	.bottom-bar {
 		position: relative;
 		max-width: 1200px;
-		
-		
+
+
 	}
-	
+
 	.bottom-bar .question-button {
 		width: 10rem;
 		text-align: center;
@@ -219,14 +220,9 @@ footer {
 		right: 0.5rem;
 		border-radius: 1rem;
 	}
-	
+
 	.bottom-bar .question-bottom-bar-dropup .question-dropup-menu .dropup-item {
 		border-radius: 1rem;
-		
+
 	}
 }
-
-
-
-
-
