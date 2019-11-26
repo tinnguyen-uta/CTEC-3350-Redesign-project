@@ -455,7 +455,9 @@ p.input-row{
 .req-contact-col{
 width: 65%;
 }
-
+.indicatorhide{
+	display: none;
+}
 a.indicator-control-prev:hover {
 color: #3FB6BF;}
 
