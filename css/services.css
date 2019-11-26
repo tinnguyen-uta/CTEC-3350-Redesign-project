@@ -1,8 +1,13 @@
 .service-description {
-  background-color: #eeeeee;
   margin-bottom: 3rem;
-  padding: 1rem 5rem;
+  padding: 1rem 4rem;
+  max-width: 100%;
+
+
+
 }
+
+
 
 .btn-moreinfo {
   background-color: #FF9D1E;
@@ -52,6 +57,13 @@
 }
 
 /* - - - - - - - - - - - RESPONSIVE - - - - - - - - - - - */
+
+
+
+.service-image01 {
+
+}
+
 
 @media (max-width: 576px) {
   .page-image {
