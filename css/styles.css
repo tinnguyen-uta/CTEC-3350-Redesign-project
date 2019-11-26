@@ -19,6 +19,7 @@
 @import url("career.css");
 @import url("services.css");
 @import url("404-error.css");
+@import url("about.css");
 
 html {
 	background-color: white;
@@ -456,7 +457,9 @@ p.input-row{
 .req-contact-col{
 width: 65%;
 }
-
+.indicatorhide{
+	display: none;
+}
 a.indicator-control-prev:hover {
 color: #3FB6BF;}
 
