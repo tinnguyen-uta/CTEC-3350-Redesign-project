@@ -1,3 +1,107 @@
-.image-link {
-  background-color: #eeeeee;
+.btn-moreinfo {
+  background-color: #FF9D1E;
+  border: transparent;
+  color: #FFFFFF;
+	padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+	margin-bottom: 1rem 0;
+	width: 100%;
+  text-transform: uppercase;
 }
+
+.btn-addtoevent {
+  background-color: #0197A2;
+  border: transparent;
+  color: #FFFFFF;
+	padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+	margin-bottom: 1rem 0;
+	width: 100%;
+  text-transform: uppercase;
+}
+
+/* - - - - - - - - - - - RESPONSIVE - - - - - - - - - - - */
+
+.image-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.service-image01 {
+  background-image: url("../images/project01.jpg");
+  background-position:center;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+  color: white;
+}
+
+/* - - - - - - - - - - - RESPONSIVE - - - - - - - - - - - */
+
+@media (max-width: 576px) {
+  .page-image {
+    height: 16rem;
+    margin-bottom: 3rem;
+  }
+
+  .service-image01 {
+    height: 15rem;
+    margin-bottom:1rem;
+  }
+}
+
+
+@media (min-width: 576px) {
+  .page-image {
+    height: 20rem;
+    margin-bottom: 3rem;
+  }
+
+  .service-image01 {
+    height: 20rem;
+    margin-bottom:1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-image {
+    height: 15rem;
+    margin-bottom: 0;
+  }
+
+  .service-image01 {
+    height: 12rem;
+    margin-bottom:1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .page-image {
+    height: 18rem;
+  }
+
+  .service-image01 {
+    height: 12rem;
+    margin-bottom:1rem;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .page-image {
+    height: 20rem;
+  }
+
+  .service-image01 {
+    height: 14rem;
+    margin-bottom:1rem;
+  }
