@@ -211,7 +211,7 @@ navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item {
 
     .navbar #mainNavigation .navbar-nav .navbar-item .navbar-link,
     .navbar #mainNavigation .navbar-nav .navbar-item.dropdown > .navbar-link.closed {
-        color: #0197A2;
+        color: #ffffff;
     }
 
     .navbar #mainNavigation .navbar-nav .navbar-item .navbar-link:hover,
