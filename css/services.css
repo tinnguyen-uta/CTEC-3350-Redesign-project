@@ -1,3 +1,9 @@
+.service-description {
+  background-color: #eeeeee;
+  margin-bottom: 3rem;
+  padding: 1rem 5rem;
+}
+
 .btn-moreinfo {
   background-color: #FF9D1E;
   border: transparent;
