@@ -4,10 +4,17 @@
 .about-item-photo {
 	border-radius: 50%;
 	width: 16rem;
-	
+
 }
 
 .about-item, .about-item h5 {
 	text-align:center;
 }
 
+.about-social-photo {
+	padding: 2rem;
+}
+
+.about-social {
+	text-align: center;
+}
