@@ -67,13 +67,19 @@ img {
 
 /*------------- end hero slider info -----------------*/
 
+/* Track */
+
+
+
+
+
 
 /*-------------POPULAR SERVICES SLIDERS -----------------*/
 
 .home-popular-service-sliders {
   display: flex;
   flex-wrap: nowrap;
-  overflow-x: auto;
+  overflow-x:auto;
   padding: 1rem 1rem;
  
 
@@ -92,6 +98,29 @@ img {
 
 .home-popular-service-sliders::-webkit-scrollbar {
 	  display: none;
+	
+}
+
+@media (min-width: 992px) {
+	::-webkit-scrollbar {
+	 height: 10px;
+	 display: block;
+	
+	} 
+	
+	::-webkit-scrollbar-track {
+ 	 background: #f1f1f1; 
+	}
+ 
+/* Handle */
+	::-webkit-scrollbar-thumb {
+ 	 background:  #0197A2; 
+	}
+
+/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+ 	 background: #555; 
+	}
 }
 
 
