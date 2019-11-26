@@ -104,13 +104,7 @@ indicatorControl.on("click", function(){
     nextSlide = currentSlide -1;
   }
 
-  if (nextSlide < 0){
-    nextSlide= numberOfSlides;
-  } else if (nextSlide > numberOfSlides) {
-    nextSlide = 0;
-  }else{
-    nextSlide = nextSlide;
-  }
+
 
   console.log(direction, numberOfSlides, nextSlide, currentSlide);
 
