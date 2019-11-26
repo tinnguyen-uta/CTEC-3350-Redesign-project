@@ -102,7 +102,7 @@ img {
 }
 
 @media (min-width: 992px) {
-	::-webkit-scrollbar {
+	.home-popular-service-sliders::-webkit-scrollbar {
 	 height: 10px;
 	 display: block;
 

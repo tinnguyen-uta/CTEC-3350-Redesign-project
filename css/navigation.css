@@ -215,6 +215,11 @@ navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item {
     .navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item.active .dropdown-link {
       color: white;
     }
+	  
+	  
+	  .dropdown-item {
+		 width: 100%;
+	  }  
   }
 
   @media (min-width: 1200px) {
