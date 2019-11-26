@@ -410,10 +410,13 @@ input[type=number]{
   margin-top: 6px;
 }
 
-input[type=textarea] {
-	padding-bottom: 3rem;
-	rows: 5;
-	columns: 40;
+textarea {
+	width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
 }
 
 #form-controls{
