@@ -58,3 +58,46 @@
 	
 	
 }
+
+/*------------------------------*/
+
+.hero-container .hero-slides.career .hero-slide .hiring {
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: column wrap;
+  -webkit-flex-flow: column wrap;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-itmes: center;
+  align-content: center;
+  -webkit-align-content: center;
+  margin-left: auto;
+	margin-right: auto;
+}
+
+.hero-container .hero-slides.career {
+ 
+}
+
+.hero-container .hero-slides .hero-slide {
+  
+  display: none;
+  height: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.hero-container .hero-slides.career .hero-slide.active {
+	height: 100%;
+	padding-bottom: 2rem;
+  
+}
+
+.hero-container .hero-slides.career .hero-slide img {
+  position: relative;
+  width: 25rem;
+  border-radius: 50%;
+}
+
