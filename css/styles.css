@@ -32,9 +32,9 @@ body {
 }
 
 header {
-	
+
 	background-color: #0197A2;
-	
+
 
 }
 
@@ -289,7 +289,7 @@ ol.slide-indicators{
 }
 
 .request-container .slide-indicators li.active {
-                background-color:orange;
+                background-color:#FF9D1E;
 
 }
 
