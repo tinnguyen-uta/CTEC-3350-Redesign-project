@@ -4,17 +4,49 @@
   max-width: 100%;
 }
 
+.service-photo {
+	width: 100%;
+	height: 15rem;
+	opacity: 0.8;
+	
+}
+
+.service-image01 {
+	margin-bottom: 2rem;
+	position: relative;
+}
+
+.service-image01 h2 {
+	position: absolute;
+	color: white;
+	margin: 0;
+}
+
+.image-link {
+	display: flex;
+      display: -webkit-flex;
+      flex-flow: column wrap;
+      -webkit-flex-flow: column wrap;
+      justify-content: center;
+      -webkit-justify-content: center;
+      align-items: center;
+      -webkit-align-items: center;
+      align-content: center;
+      -webkit-align-content: center;
+}
+
+
 
 
 .btn-moreinfo {
   background-color: #FF9D1E;
   border: transparent;
   color: #FFFFFF;
-	padding: 12px 20px;
+  padding: 12px 20px;
   border: none;
   cursor: pointer;
-	margin-bottom: 1rem 0;
-	width: 100%;
+  margin-bottom: 1rem 0;
+  width: 100%;
   text-transform: uppercase;
 }
 
@@ -33,24 +65,11 @@
 /* - - - - - - - - - - - RESPONSIVE - - - - - - - - - - - */
 
 .image-link {
-  display: block;
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  color: white;
-  display: flex;
-  display: -webkit-flex;
-  justify-content: center;
-  -webkit-justify-content: center;
-  align-items: center;
-  -webkit-align-items: center;
+  
 }
 
 .service-image01 {
-  background-image: url("../images/project01.jpg");
-  background-position:center;
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
-  color: white;
+ 
 }
 
 /* - - - - - - - - - - - RESPONSIVE - - - - - - - - - - - */
@@ -62,7 +81,7 @@
 }
 
 
-@media (max-width: 576px) {
+/*@media (max-width: 576px) {
   .page-image {
     height: 16rem;
     margin-bottom: 3rem;
@@ -120,3 +139,4 @@
     height: 14rem;
     margin-bottom:1rem;
   }
+}  */
