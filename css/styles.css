@@ -508,6 +508,9 @@ width: 65%;
 	.btn-col p{
 		padding: 0;
 	}
+	/*careers*/
+	#contact-contact-col{
+	width: 100%;
 }
 
 @media (max-width: 992px){
@@ -548,8 +551,5 @@ width: 65%;
 			align-content: flex-start;
 		}
 
-		/*careers*/
-		#contact-contact-col{
-		width: 100%;
 		}
 }
