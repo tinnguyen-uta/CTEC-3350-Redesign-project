@@ -22,8 +22,12 @@
 	margin: 0;
 }
 
+.checked {
+  color: orange;
+}
+
 .image-link {
-	display: flex;
+	  display: flex;
       display: -webkit-flex;
       flex-flow: column wrap;
       -webkit-flex-flow: column wrap;
@@ -38,7 +42,7 @@
 
 
 
-.btn-moreinfo {
+.btn-comments, .btn-moreinfo {
   background-color: #FF9D1E;
   border: transparent;
   color: #FFFFFF;
@@ -46,7 +50,7 @@
   border: none;
   cursor: pointer;
   margin-bottom: 1rem 0;
-  width: 100%;
+  width: 50%;
   text-transform: uppercase;
 }
 
@@ -140,3 +144,55 @@
     margin-bottom:1rem;
   }
 }  */
+
+
+/*-----------------MORE INFO--------------*/
+
+
+
+.service-moreinfo, .service-comments {
+	display: none;
+}
+
+.service-more-info h4 {
+	 margin:0;
+	 padding: 0.5rem 0;
+}
+
+ .service-more-info p {
+	 margin:0;
+	 padding: 0.5rem 0;
+}
+
+.star-rating {
+	text-align: center;
+}
+
+.more-info-comments {
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row wrap; /* <flex-direction> <flex-wrap> */
+  -webkit-flex-flow: row wrap;
+  
+}
+
+.service-moreinfo {
+	height: 15rem;
+}
+
+.service-comments {
+  height: 15rem;
+  overflow-y: scroll;
+  padding-top:0.5rem; 
+}
+
+.service-comments .person-comment h5 {
+	margin: 0;
+	padding:0;
+}
+
+.service-comments h5:first-child {
+	font-weight: 800;
+}
+
+

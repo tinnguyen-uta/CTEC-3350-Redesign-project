@@ -60,14 +60,17 @@ $(function(){
 
 
 $(function(){
-	let toggler = $(".bottom-bar .question-button");
+	let togglerBottom = $(".bottom-bar .question-button");
 
-  toggler.on("click", function(){
+  togglerBottom.on("click", function(){
     console.log("I was clicked on question button");
     let questionBottomMenu = $(".question-bottom-bar-dropup");
     questionBottomMenu.toggle(100);
   });
 });
+
+
+
 
 
 
@@ -148,6 +151,82 @@ $(function(){
 
   });
 });
+
+
+/*tabbed more info services*/
+
+/*-------------------------------------------------------*/
+
+$(function(){
+  let togglerMoreinfo = $(".service-image01 .btn-moreinfo.1");
+
+  togglerMoreinfo.on("click", function(){
+    let moreinfo = $(".service-moreinfo.1");
+    moreinfo.fadeToggle(200);
+	$(".service-comments.1").css({display:"none"});
+	
+  });
+});
+	
+
+  let togglerComments1 = $(".service-image01 .btn-comments.1");
+
+  togglerComments1.on("click", function(){
+    let comments1 = $(".service-comments.1");
+    comments1.fadeToggle(200);
+	$(".service-moreinfo.1").css({display:"none"});	
+	
+});	
+
+
+/*-------------------------------------------------------*/
+
+$(function(){
+  let togglerMoreinfo2 = $(".service-image01 .btn-moreinfo.2");
+
+  togglerMoreinfo2.on("click", function(){
+    let moreinfo2 = $(".service-moreinfo.2");
+    moreinfo2.fadeToggle(200);
+	$(".service-comments.2").css({display:"none"});
+	
+  });
+});
+	
+
+  let togglerComments2 = $(".service-image01 .btn-comments.2");
+
+  togglerComments2.on("click", function(){
+    let comments2 = $(".service-comments.2");
+    comments2.fadeToggle(200);
+	$(".service-moreinfo.2").css({display:"none"});	
+	
+});	
+	
+/*-------------------------------------------------------*/
+
+$(function(){
+  let togglerMoreinfo3 = $(".service-image01 .btn-moreinfo.3");
+
+  togglerMoreinfo3.on("click", function(){
+    let moreinfo3 = $(".service-moreinfo.3");
+    moreinfo3.fadeToggle(200);
+	$(".service-comments.3").css({display:"none"});
+	
+  });
+});
+	
+
+  let togglerComments3 = $(".service-image01 .btn-comments.3");
+
+  togglerComments3.on("click", function(){
+    let comments3 = $(".service-comments.3");
+    comments3.fadeToggle(200);
+	$(".service-moreinfo.3").css({display:"none"});	
+	
+});	
+	
+/*-------------------------------------------------------*/
+
 
 
 
