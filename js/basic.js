@@ -178,8 +178,8 @@ $(function(){
 	
 });	
 
+/* for other serivces
 
-/*-------------------------------------------------------*/
 
 $(function(){
   let togglerMoreinfo2 = $(".service-image01 .btn-moreinfo.2");
@@ -201,8 +201,7 @@ $(function(){
 	$(".service-moreinfo.2").css({display:"none"});	
 	
 });	
-	
-/*-------------------------------------------------------*/
+
 
 $(function(){
   let togglerMoreinfo3 = $(".service-image01 .btn-moreinfo.3");
@@ -225,9 +224,9 @@ $(function(){
 	
 });	
 	
-/*-------------------------------------------------------*/
 
 
+*/
 
 
 
