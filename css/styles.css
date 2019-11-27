@@ -490,13 +490,19 @@ background-color: #3FB6BF;}
 .unsure:hover {
 background-color: #ffc478;}
 
-@media(max-width: 992px){
+@media (min-width: 1200px){
+	.goToHome{
+		display: none;
+	}
+}
+
+@media(max-width: 1200px){
 	.btn-col p{
 		padding: 0;
 	}
 }
 
-@media (max-width: 720px){
+@media (max-width: 992px){
 	.btn-col{
 			padding: 0 0.5rem;
 		}
