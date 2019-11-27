@@ -493,6 +493,11 @@ background-color: #3FB6BF;}
 .unsure:hover {
 background-color: #ffc478;}
 
+/*Careers*/
+#contact-contact-col{
+width: 65%;
+}
+
 @media (min-width: 1200px){
 	.goToHome{
 		display: none;
@@ -541,5 +546,10 @@ background-color: #ffc478;}
 			-webkit-align-items: flex-start;
 			-webkit-align-content: flex-start;
 			align-content: flex-start;
+		}
+
+		/*careers*/
+		#contact-contact-col{
+		width: 100%;
 		}
 }
