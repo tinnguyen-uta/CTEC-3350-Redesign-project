@@ -391,7 +391,10 @@ ol.slide-indicators{
 	-webkit-align-items: center;
 	align-content: center;
 	-webkit-align-content: center;
+}
 
+a.button-match{
+	text-decoration: none;
 }
 
 input[type=date],input[type=email],input[type=tel],input[type=textarea] {
