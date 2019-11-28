@@ -4,15 +4,19 @@
 <head>
   <meta charset="utf-8">
 
-  <title>B3 Entertainment | About</title>
+  <title>B3 Entertainment | Request Info</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Added styles to the head to avoid issues and conflicts with the CSS -->
+  <style>
+    .request-container .slide-indicators li { border-radius: 0; float: left; }
+  </style>
 </head>
 
 <body>
-  <!-- Header -->
    <header>
     <div class="container-fluid navbar">
 
@@ -120,7 +124,7 @@
 
 	  </div>
 
-    <!-- Navigation -->
+
       <div id="mainNavigation" class="collapse navbar-collapse">
         <ul class="navbar-nav">
           <li class="navbar-item">
@@ -149,91 +153,41 @@
               </li>
             </ul>
           </li>
-          <li class="navbar-item active">
+          <li class="navbar-item">
             <a class="navbar-link" href="about.html" title="About">About</a>
           </li>
           <li class="navbar-item">
             <a class="navbar-link" href="careers.html" title="Careers">Careers</a>
           </li>
-		  <li class="navbar-item">
+		  <li class="navbar-item active">
             <a class="navbar-link" href="requestinfo.html" title="Request Info">Request Info</a>
           </li>
 		  <li class="navbar-item">
             <a class="navbar-link" href="contact.html" title="Contact">Contact</a>
           </li>
+
         </ul>
       </div>
     </div>
   </header>
-   <main>
-    <!-- Container -->
-	  <div class="container-fluid">
-    <!-- About Section -->
-    <h1>ABOUT</h1>
-	  <div class="row">
-		  <div class="about-main-photo col-xs-12 col-md-12">
-      <img src="images/staff.jpg">
-			 <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-		  </div>
-	  </div>
-    <!-- Our Team Section -->
-	  <h2>Our Team</h2>
-	  <div class="row">
-		 <div class="col-xs-6 col-md-3 about-item">
-			 <img class="about-item-photo" src="images/lady.jpg">
-			 <h4>LAUREN BROOKS</h4>
-			 <h5>PRESIDENT/AGENT</h5>
-       <h6>lauren@b3talent.com<br>972.442.1341</h6>
-		 </div>
-		 <div class="col-xs-6 col-md-3 about-item">
-			 <img class="about-item-photo" src="images/man.jpg">
-			  <h4>MICHAEL BROOKS</h4>
-			 <h5>VP/AGENT</h5>
-       <h6>michael@b3talent.com<br>972.686.1341</h6>
-		 </div>
-		  <div class="col-xs-6 col-md-3 about-item">
-			 <img class="about-item-photo" src="images/girl.jpg">
-			  <h4>SUZI MIGDOL</h4>
-			 <h5>ASST. PRESIDENT/AGENT</h5>
-       <h6>suzi@b3talent.com<br>972.980.1341</h6>
-		 </div>
-		  <div class="col-xs-6 col-md-3 about-item">
-			 <img class="about-item-photo" src="images/boy.jpg">
-			  <h4>KYLE VERSA</h4>
-			 <h5>AGENT</h5>
-       <h6>kyle@b3talent.com<br>972.426.1341</h6>
-		 </div>
-	  </div>
-    <!-- Social Section -->
-    <h2>Social</h2>
-    <div class="row">
-      <div class="col-xs-12 col-md-6 about-social">
-        <img class="about-social-photo" src="images/social.jpg">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitationullamco laboris.<br/>
-          <a href="#">Read more</a>
 
-        </p>
+  <main>
+	<div class = "container">
+	  	   <div class = "row">
+		   		<div class="col-xs-12">
+            <h1>Request Info</h1>
+            <div id="reqsample" class="request-container">
 
+              <h3>Thanks for reaching out!</h3>
+              <p>We'll get in touch with you soon :) </p>
+              <a href="index.html" class="goToHome button-match"><button class="btn-start">Home</button></a>
+
+   		       </div>
+          </div>
+        </div>
       </div>
-      <div class="col-xs-12 col-md-6 about-social">
-        <img class="about-social-photo" src="images/meet.jpg">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitationullamco laboris.<br/>
-          <a href="#">Read more</a>
+</main>
 
-        </p>
-      </div>
-    </div>
-    </div>
-
-
-
-  </main>
-
-  <!-- Footer -->
   <footer>
 	  <div class="footerbar">
 		  <div class="container-fluid footer-info">
@@ -292,37 +246,11 @@
 
 			  </div>
 		  </div>
-
-
-
-		  <div class="bottom-bar">
-
-
-			<button type="button" class="question-button" href="#" title="Checklist">QUESTION ?
-		    </button>
-
-
-			  <div class="question-bottom-bar-dropup">
-				<ul class="question-dropup-menu">
-				  <a class="dropup-link" href="#" title="Link"><li class="dropup-item">
-					Need help?</li></a>
-				  <a class="dropup-link" href="#" title="Link"><li class="dropup-item">
-					Contact us
-				  </li></a>
-				</ul>
-			  </div>
-		  </div>
-
-
-
 	  </div>
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/rotate-banner.js"></script>
   <script src="js/basic.js"></script>
-
-
-
 </body>
 </html>
