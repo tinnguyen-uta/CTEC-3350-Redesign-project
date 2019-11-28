@@ -103,12 +103,13 @@ header {
     padding: 0.7rem 1.5rem;
   }
 
-navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item {
+/*.navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item {
 	padding-right: 5rem;
-}
+}*/
 
   .navbar #mainNavigation .navbar-nav .navbar-item .navbar-link:hover,
   .navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item .dropdown-link:hover,
+  .navbar #mainNavigation .navbar-nav .navbar-item.dropdown .navbar-link.closed:hover,
   .navbar #mainNavigation .navbar-nav .navbar-item.active .navbar-link,
   .navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item.active .dropdown-link {
     background-color: #3FB6BF;
