@@ -69,7 +69,7 @@ header {
 .navbar .navbar-toggler {
   width: 3rem;
   height: 2.7rem;
-  font-size: 1.25rem;
+  font-size: 1.7rem;
   background-color: #0197A2;
   color: white;
   border: 0 none;
@@ -122,7 +122,7 @@ header {
   }
 
   .navbar #mainNavigation .navbar-nav .navbar-item.dropdown > .navbar-link.closed {
-    background-color: transparent;
+ 
   }
 
   .navbar #mainNavigation .navbar-nav .dropdown > .navbar-link:after {
@@ -133,6 +133,7 @@ header {
 
   .navbar #mainNavigation .navbar-nav .dropdown > .navbar-link.closed:after {
     content: "\f078";
+	   
   }
 
   .navbar #mainNavigation .navbar-nav .dropdown-menu {
@@ -141,9 +142,11 @@ header {
     margin: 0;
     padding: 0;
     display: none;
+	
   }
 
   .navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item {
+	  background-color:#00556B; /*---------------color for services-------------*/
   }
 
   .navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item .dropdown-link {
@@ -176,6 +179,7 @@ header {
     .navbar #mainNavigation .navbar-nav .dropdown .dropdown-menu {
       position: absolute;
       z-index: 1;
+	  
     }
   }
 

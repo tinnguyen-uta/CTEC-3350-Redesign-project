@@ -65,7 +65,7 @@ $(function(){
   togglerBottom.on("click", function(){
     console.log("I was clicked on question button");
     let questionBottomMenu = $(".question-bottom-bar-dropup");
-    questionBottomMenu.toggle(100);
+    questionBottomMenu.fadeToggle(100);
   });
 });
 
