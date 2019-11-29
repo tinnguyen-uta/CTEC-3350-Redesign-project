@@ -194,3 +194,11 @@
 .service-comments h5:first-child {
 	font-weight: 800;
 }
+
+
+.btn-addtoevent:hover {
+background-color: #3FB6BF;}
+
+
+.btn-moreinfo:hover, .btn-comments:hover {
+background-color:#ffc478;}
