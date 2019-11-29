@@ -14,6 +14,11 @@
 .service-image01 {
 	margin-bottom: 2rem;
 	position: relative;
+  background-color: #000000;
+}
+
+.service-image01:hover {
+  background-color: #FFFFFF;
 }
 
 .service-image01 h2 {
