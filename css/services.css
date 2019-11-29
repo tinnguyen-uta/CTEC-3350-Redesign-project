@@ -8,7 +8,7 @@
 	width: 100%;
 	height: 15rem;
 	opacity: 0.8;
-	
+
 }
 
 .service-image01 {
@@ -69,11 +69,11 @@
 /* - - - - - - - - - - - RESPONSIVE - - - - - - - - - - - */
 
 .image-link {
-  
+
 }
 
 .service-image01 {
- 
+
 }
 
 /* - - - - - - - - - - - RESPONSIVE - - - - - - - - - - - */
@@ -173,7 +173,7 @@
   display: -webkit-flex;
   flex-flow: row wrap; /* <flex-direction> <flex-wrap> */
   -webkit-flex-flow: row wrap;
-  
+
 }
 
 .service-moreinfo {
@@ -183,7 +183,7 @@
 .service-comments {
   height: 15rem;
   overflow-y: scroll;
-  padding-top:0.5rem; 
+  padding-top:0.5rem;
 }
 
 .service-comments .person-comment h5 {
@@ -194,5 +194,3 @@
 .service-comments h5:first-child {
 	font-weight: 800;
 }
-
-

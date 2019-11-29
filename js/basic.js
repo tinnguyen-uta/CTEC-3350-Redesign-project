@@ -164,19 +164,23 @@ $(function(){
     let moreinfo = $(".service-moreinfo.1");
     moreinfo.fadeToggle(200);
 	$(".service-comments.1").css({display:"none"});
-	
+	$(".btn-moreinfo.1").toggleClass('hoverorange');
+	$(".btn-comments.1").removeClass('hoverorange');
+
   });
 });
-	
+
 
   let togglerComments1 = $(".service-image01 .btn-comments.1");
 
   togglerComments1.on("click", function(){
     let comments1 = $(".service-comments.1");
     comments1.fadeToggle(200);
-	$(".service-moreinfo.1").css({display:"none"});	
-	
-});	
+	$(".service-moreinfo.1").css({display:"none"});
+	$(".btn-comments.1").toggleClass('hoverorange');
+	$(".btn-moreinfo.1").removeClass('hoverorange');
+
+});
 
 /* for other serivces
 
@@ -188,19 +192,19 @@ $(function(){
     let moreinfo2 = $(".service-moreinfo.2");
     moreinfo2.fadeToggle(200);
 	$(".service-comments.2").css({display:"none"});
-	
+
   });
 });
-	
+
 
   let togglerComments2 = $(".service-image01 .btn-comments.2");
 
   togglerComments2.on("click", function(){
     let comments2 = $(".service-comments.2");
     comments2.fadeToggle(200);
-	$(".service-moreinfo.2").css({display:"none"});	
-	
-});	
+	$(".service-moreinfo.2").css({display:"none"});
+
+});
 
 
 $(function(){
@@ -210,20 +214,20 @@ $(function(){
     let moreinfo3 = $(".service-moreinfo.3");
     moreinfo3.fadeToggle(200);
 	$(".service-comments.3").css({display:"none"});
-	
+
   });
 });
-	
+
 
   let togglerComments3 = $(".service-image01 .btn-comments.3");
 
   togglerComments3.on("click", function(){
     let comments3 = $(".service-comments.3");
     comments3.fadeToggle(200);
-	$(".service-moreinfo.3").css({display:"none"});	
-	
-});	
-	
+	$(".service-moreinfo.3").css({display:"none"});
+
+});
+
 
 
 */
