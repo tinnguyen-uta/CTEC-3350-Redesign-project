@@ -156,7 +156,7 @@ $(function(){
 /*tabbed more info services*/
 
 /*-------------------------------------------------------*/
-
+/*----TAB 1----*/
 $(function(){
   let togglerMoreinfo = $(".service-image01 .btn-moreinfo.1");
 
@@ -182,8 +182,10 @@ $(function(){
 
 });
 
-/* for other serivces
+/*-------END TAB 1-------*/
 
+
+/*-------TAB 2-------*/
 
 $(function(){
   let togglerMoreinfo2 = $(".service-image01 .btn-moreinfo.2");
@@ -192,6 +194,8 @@ $(function(){
     let moreinfo2 = $(".service-moreinfo.2");
     moreinfo2.fadeToggle(200);
 	$(".service-comments.2").css({display:"none"});
+	$(".btn-moreinfo.2").toggleClass('hoverorange');
+	$(".btn-comments.2").removeClass('hoverorange');
 
   });
 });
@@ -203,10 +207,15 @@ $(function(){
     let comments2 = $(".service-comments.2");
     comments2.fadeToggle(200);
 	$(".service-moreinfo.2").css({display:"none"});
+	$(".btn-comments.2").toggleClass('hoverorange');
+	$(".btn-moreinfo.2").removeClass('hoverorange');
 
 });
 
+/*------- END TAB 2-------*/
 
+
+/*----TAB 3----*/
 $(function(){
   let togglerMoreinfo3 = $(".service-image01 .btn-moreinfo.3");
 
@@ -214,6 +223,8 @@ $(function(){
     let moreinfo3 = $(".service-moreinfo.3");
     moreinfo3.fadeToggle(200);
 	$(".service-comments.3").css({display:"none"});
+	$(".btn-moreinfo.3").toggleClass('hoverorange');
+	$(".btn-comments.3").removeClass('hoverorange');
 
   });
 });
@@ -225,12 +236,102 @@ $(function(){
     let comments3 = $(".service-comments.3");
     comments3.fadeToggle(200);
 	$(".service-moreinfo.3").css({display:"none"});
+	$(".btn-comments.3").toggleClass('hoverorange');
+	$(".btn-moreinfo.3").removeClass('hoverorange');
 
 });
 
+/*-------END TAB 3-------*/
 
 
-*/
+/*-------TAB 4-------*/
+
+$(function(){
+  let togglerMoreinfo4 = $(".service-image01 .btn-moreinfo.4");
+
+  togglerMoreinfo4.on("click", function(){
+    let moreinfo4 = $(".service-moreinfo.4");
+    moreinfo4.fadeToggle(200);
+	$(".service-comments.4").css({display:"none"});
+	$(".btn-moreinfo.4").toggleClass('hoverorange');
+	$(".btn-comments.4").removeClass('hoverorange');
+
+  });
+});
+
+
+  let togglerComments4 = $(".service-image01 .btn-comments.4");
+
+  togglerComments4.on("click", function(){
+    let comments4 = $(".service-comments.4");
+    comments4.fadeToggle(200);
+	$(".service-moreinfo.4").css({display:"none"});
+	$(".btn-comments.4").toggleClass('hoverorange');
+	$(".btn-moreinfo.4").removeClass('hoverorange');
+
+});
+
+/*------- END TAB 4-------*/
+
+
+
+/*----TAB 5----*/
+$(function(){
+  let togglerMoreinfo5 = $(".service-image01 .btn-moreinfo.5");
+
+  togglerMoreinfo5.on("click", function(){
+    let moreinfo5 = $(".service-moreinfo.5");
+    moreinfo5.fadeToggle(200);
+	$(".service-comments.5").css({display:"none"});
+	$(".btn-moreinfo.5").toggleClass('hoverorange');
+	$(".btn-comments.5").removeClass('hoverorange');
+
+  });
+});
+
+
+  let togglerComments5 = $(".service-image01 .btn-comments.5");
+
+  togglerComments5.on("click", function(){
+    let comments5 = $(".service-comments.5");
+    comments5.fadeToggle(200);
+	$(".service-moreinfo.5").css({display:"none"});
+	$(".btn-comments.5").toggleClass('hoverorange');
+	$(".btn-moreinfo.5").removeClass('hoverorange');
+
+});
+
+/*-------END TAB 5-------*/
+
+
+/*-------TAB 6-------*/
+
+$(function(){
+  let togglerMoreinfo6 = $(".service-image01 .btn-moreinfo.6");
+
+  togglerMoreinfo6.on("click", function(){
+    let moreinfo6 = $(".service-moreinfo.6");
+    moreinfo6.fadeToggle(200);
+	$(".service-comments.6").css({display:"none"});
+	$(".btn-moreinfo.6").toggleClass('hoverorange');
+	$(".btn-comments.6").removeClass('hoverorange');
+
+  });
+});
+
+
+  let togglerComments6 = $(".service-image01 .btn-comments.6");
+
+  togglerComments6.on("click", function(){
+    let comments6 = $(".service-comments.6");
+    comments6.fadeToggle(200);
+	$(".service-moreinfo.6").css({display:"none"});
+	$(".btn-comments.6").toggleClass('hoverorange');
+	$(".btn-moreinfo.6").removeClass('hoverorange');
+
+});
+
+/*------- END TAB 6-------*/
 
 
 
