@@ -14,10 +14,14 @@
 .service-image01 {
 	margin-bottom: 2rem;
 	position: relative;
+}
+
+.service-image01 .image-link{
   background-color: #000000;
 }
 
-.service-image01:hover {
+
+.service-image01 .image-link:hover {
   background-color: #FFFFFF;
 }
 
