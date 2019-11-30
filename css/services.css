@@ -7,17 +7,21 @@
 .service-photo {
 	width: 100%;
 	height: 15rem;
-	opacity: 1;
+	opacity: 0.8;
 
 }
 
 .service-image01 {
 	margin-bottom: 2rem;
 	position: relative;
+}
+
+.service-image01 .image-link{
   background-color: #000000;
 }
 
-.service-image01:hover {
+
+.service-image01 .image-link:hover {
   background-color: #FFFFFF;
 }
 
