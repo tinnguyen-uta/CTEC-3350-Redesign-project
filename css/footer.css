@@ -200,6 +200,7 @@ footer {
 	.bottom-bar {
 		position: relative;
 		max-width: 1200px;
+		
 
 
 	}
@@ -211,6 +212,7 @@ footer {
 		bottom: 2rem;
 		right: 0.5rem;
 		border-radius: 1rem;
+		
 	}
 	.bottom-bar .question-bottom-bar-dropup {
 		width: 10rem;
