@@ -1,8 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+
 .about-item-photo {
-		width:300px;
+	  width:300px;
 	  height:300px;
 	  object-fit:cover;
 	  border-radius:50%;
