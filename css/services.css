@@ -211,3 +211,21 @@ background-color: #3FB6BF;}
 
 .btn-moreinfo:hover, .btn-comments:hover {
 background-color:#ffc478;}
+
+.btn-services{
+	  background-color: #0197A2;
+	  border: transparent;
+	  color: #FFFFFF;
+	  border: none;
+	  padding: 0.7rem;
+	  border-radius: 4px;
+	  cursor: pointer;
+	  margin:1rem;
+	  width: 20%;
+	  text-align: center;
+}
+
+.notListed{
+  background-color: #EEEEEE;
+  padding:3rem;
+}
