@@ -92,6 +92,7 @@ img {
 
 .popular-service-item {
   text-align: center;
+	position: relative;
 }
 
 .popular-service-photo {
@@ -102,8 +103,27 @@ img {
 
 
 .home-popular-service-sliders::-webkit-scrollbar {
-	  display: none;
+	 display: none;
 
+}
+
+.popular-service-item h4 {
+	padding: 0;
+	margin: 0;
+}
+
+.popular-service-rating {
+	position: absolute;
+	bottom: 1rem;
+	left:4rem;
+	color: white;
+	text-align: left;
+	
+}
+
+.popular-service-rating .star-rating {
+	text-align: left;
+	
 }
 
 @media (min-width: 992px) {
