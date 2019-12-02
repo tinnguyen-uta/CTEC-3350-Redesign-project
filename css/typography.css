@@ -7,7 +7,9 @@ MUSTARD YELLOW: #FF9D1E;
 
 LIGHT GRAY: #EEEEEE;
 
-TYPE GRAY: #797979;
+ON WHITE BACKGROUND
+TYPE GRAY: #444444;
+GRAY HOVER: #797979;
 */
 
 
@@ -36,6 +38,15 @@ h1 {
   font-size: 2.5rem;
   line-height: 3rem;
   margin-top: 3rem;
+}
+
+h1 a {
+  color: #444444;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color: #797979;
 }
 
 h2 {
@@ -82,7 +93,7 @@ h6 {
 
 p {
   line-height: 1.4rem;
- 
+
 }
 
 p a {
