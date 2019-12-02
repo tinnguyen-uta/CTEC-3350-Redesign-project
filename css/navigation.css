@@ -35,7 +35,6 @@ header {
 		  max-width: 1200px;
 		  margin-left: auto;
 		  margin-right: auto;
-		  /*background-color: #dadada;*/
 		  padding-left: 1rem;
 		  padding-right: 1rem;
 	}
@@ -122,7 +121,7 @@ header {
   }
 
   .navbar #mainNavigation .navbar-nav .navbar-item.dropdown > .navbar-link.closed {
- 
+
   }
 
   .navbar #mainNavigation .navbar-nav .dropdown > .navbar-link:after {
@@ -133,7 +132,7 @@ header {
 
   .navbar #mainNavigation .navbar-nav .dropdown > .navbar-link.closed:after {
     content: "\f078";
-	   
+
   }
 
   .navbar #mainNavigation .navbar-nav .dropdown-menu {
@@ -142,12 +141,13 @@ header {
     margin: 0;
     padding: 0;
     display: none;
-	
   }
 
+  /*---------------color for services-------------*/
   .navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item {
-	  background-color:#006E76; /*---------------color for services-------------*/
+	  background-color:#0197A2;
   }
+  /*---------------color for services-------------*/
 
   .navbar #mainNavigation .navbar-nav .dropdown-menu .dropdown-item .dropdown-link {
     padding-left: 2rem;
@@ -179,7 +179,7 @@ header {
     .navbar #mainNavigation .navbar-nav .dropdown .dropdown-menu {
       position: absolute;
       z-index: 1;
-	  
+
     }
   }
 
