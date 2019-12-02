@@ -519,6 +519,12 @@ background-color: #3FB6BF;}
 .unsure:hover {
 background-color: #ffc478;}
 
+.request-info-photo img{
+	width: 100%;
+	height: 75%;
+
+}
+
 /*Careers*/
 #contact-contact-col{
 width: 65%;
