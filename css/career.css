@@ -99,5 +99,6 @@
 .hero-container .hero-slides.career .hero-slide img {
   position: relative;
   width: 25rem;
+	height: 25rem;
   border-radius: 50%;
 }
