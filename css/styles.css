@@ -78,6 +78,9 @@ img {
 
 .our-services {padding:3rem;}
 
+.our-service-item {
+	padding-bottom: 2rem;
+}
 
 /*-------------POPULAR SERVICES SLIDERS -----------------*/
 
@@ -92,6 +95,7 @@ img {
 
 .popular-service-item {
   text-align: center;
+	position: relative;
 }
 
 .popular-service-photo {
@@ -102,8 +106,27 @@ img {
 
 
 .home-popular-service-sliders::-webkit-scrollbar {
-	  display: none;
+	 display: none;
 
+}
+
+.popular-service-item h4 {
+	padding: 0;
+	margin: 0;
+}
+
+.popular-service-rating {
+	position: absolute;
+	bottom: 1rem;
+	left:4rem;
+	color: white;
+	text-align: left;
+	
+}
+
+.popular-service-rating .star-rating {
+	text-align: left;
+	
 }
 
 @media (min-width: 992px) {
@@ -132,7 +155,7 @@ img {
 
  .home-popular-service-sliders .popular-service-item {
     flex: 0 0 auto;
-    margin-right: 1rem;
+    margin-right: 0rem;
 	width: 20rem;
 }
 
