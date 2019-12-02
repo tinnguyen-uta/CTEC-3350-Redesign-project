@@ -78,6 +78,9 @@ img {
 
 .our-services {padding:3rem;}
 
+.our-service-item {
+	padding-bottom: 2rem;
+}
 
 /*-------------POPULAR SERVICES SLIDERS -----------------*/
 
@@ -152,7 +155,7 @@ img {
 
  .home-popular-service-sliders .popular-service-item {
     flex: 0 0 auto;
-    margin-right: 1rem;
+    margin-right: 0rem;
 	width: 20rem;
 }
 
