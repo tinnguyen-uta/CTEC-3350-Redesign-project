@@ -4,18 +4,18 @@
 }
 
 .career-header p{
- 
+
   margin: 0;
   padding: 2rem 3rem 2rem 3rem;
 }
 
 .career-header img {
-	
+
 }
 
 
 .career-values {
-  
+
   padding-bottom: 3rem;
   text-align: center;
 }
@@ -26,7 +26,7 @@
 }
 
 .career-hiring {
- 
+
    padding-bottom: 5rem;
    text-align: center;
 
@@ -38,15 +38,15 @@
 }
 
 @media (min-width: 992px) {
-	
-	.career-hiring img {width: 100%;} 
+
+	.career-hiring img {width: 100%;}
 	.career-value-1 img, .career-value-2 img, .career-value-3 img {width: 100%;}
 }
 
 .careers-hiring-1 a, .careers-hiring-2 a, .careers-hiring-3 a {
 	text-decoration: none;
 	color: white;
-	
+
 }
 
 .careers-hiring-1 h4, .careers-hiring-2 h4, .careers-hiring-3 h4 {
@@ -55,11 +55,12 @@
 	text-align: center;
 	margin-left: auto;
 	margin-right:auto;
-	
-	
+
+
 }
 
 /*------------------------------*/
+
 
 .hero-container .hero-slides.career .hero-slide .hiring {
   display: flex;
@@ -77,22 +78,22 @@
 }
 
 .hero-container .hero-slides.career {
- 
+
 }
 
 .hero-container .hero-slides .hero-slide {
-  
+
   display: none;
   height: 25rem;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
 
 .hero-container .hero-slides.career .hero-slide.active {
 	height: 100%;
 	padding-bottom: 2rem;
-  
+
 }
 
 .hero-container .hero-slides.career .hero-slide img {
@@ -100,4 +101,3 @@
   width: 25rem;
   border-radius: 50%;
 }
-
