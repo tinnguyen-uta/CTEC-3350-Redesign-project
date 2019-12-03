@@ -563,16 +563,26 @@ width: 65%;
 	.goToHome{
 		display: none;
 	}
+	.success-content{
+		padding-bottom: 5rem;
+	}
+
 }
 
-.success-content{
-	padding: 1rem;
-}
 
 @media(max-width: 1200px){
 	.btn-col p{
 		padding: 0;
 	}
+
+	.success-content{
+		padding-bottom: 1rem;
+	}
+
+	.successHomeBtn{
+		padding-bottom: 2rem;
+	}
+}
 	/*careers*/
 	#contact-contact-col{
 	width: 100%;
