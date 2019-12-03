@@ -565,6 +565,10 @@ width: 65%;
 	}
 }
 
+.success-content{
+	padding: 1rem;
+}
+
 @media(max-width: 1200px){
 	.btn-col p{
 		padding: 0;
