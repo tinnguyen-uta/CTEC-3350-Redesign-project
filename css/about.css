@@ -8,7 +8,11 @@
 	  height:300px;
 	  object-fit:cover;
 	  border-radius:50%;
-	text-align: center;
+	  text-align: center;
+}
+
+.about-social {
+	padding-bottom:1rem;
 }
 
 .about-item, .about-item h5 {
