@@ -4,17 +4,20 @@
 <head>
   <meta charset="utf-8">
 
-  <title>B3 Entertainment | Careers</title>
+  <title>B3 Entertainment | Request Info</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Added styles to the head to avoid issues and conflicts with the CSS -->
+  <style>
+    .request-container .slide-indicators li { border-radius: 0; float: left; }
+  </style>
 </head>
 
 <body>
-
-  <!-- CONTAINER/NAVBAR -->
-  <header>
+   <header>
     <div class="container-fluid navbar">
 
       <button type="button" class="navbar-toggler" data-target="#mainNavigation">
@@ -121,7 +124,7 @@
 
 	  </div>
 
-    <!-- NAVIGATION BAR COLLAPSE -->
+
       <div id="mainNavigation" class="collapse navbar-collapse">
         <ul class="navbar-nav">
           <li class="navbar-item">
@@ -146,20 +149,20 @@
                 <a class="dropdown-link" href="services-rentals.html" title="Rentals">Rentals</a>
               </li>
               <li class="dropdown-item all">
-                      <a class="dropdown-link" href="services.html" title="Rentals">All</a>
+                      <a class="dropdown-link" href="services.html" title="All">All</a>
               </li>
             </ul>
           </li>
           <li class="navbar-item">
             <a class="navbar-link" href="about.html" title="About">About</a>
           </li>
-          <li class="navbar-item active">
+          <li class="navbar-item">
             <a class="navbar-link" href="careers.html" title="Careers">Careers</a>
           </li>
 		  <li class="navbar-item">
             <a class="navbar-link" href="requestinfo.html" title="Request Info">Request Info</a>
           </li>
-		  <li class="navbar-item">
+		  <li class="navbar-item active">
             <a class="navbar-link" href="contact.html" title="Contact">Contact</a>
           </li>
 
@@ -168,69 +171,23 @@
     </div>
   </header>
 
-  <!-- CONTAINER -->
   <main>
-	  <div class="container">
-      <h1>Careers</h1>
-  <div class="job-info col-lg-12 col-md-12 col-sm-12">
-    <div class="job-info-title">
-      <h2> Ballet Dancer</h2>
-    </div>
-    <div class="job-info-description col-lg-6 col-md-8 col-sm-10"
-      <p> <strong> Job Description </strong> We are looking for talented ballet dancers to join the B3 team! They will be represented by us and perform at various events. Experience and previous gigs should be communicated when being interviewed.</p>
-      <p> <strong> Job Requirements </strong> Dancers must dress accordingly to what is appropriate per event. Must be able to perform for designated amounts of time and remain positive and professional.</p>
-    </div>
-  </div>
-    <div class="job-form">
-      <div class="job-form-title">
-        <h2>Send Us Your Resume</h2>
-        <p> If you feel that you would be a great fit for the company, fill out the form below! </p>
-      </div>
-      <div class="job-form-entry col-lg-4 col-md-6 col-sm-12">
-      <form action="action_page.php">
-        <div class="form-group">
-          <textarea name="message" rows="5" type="textarea" placeholder="Type your message here"></textarea>
-        </div>
-        <div class="form-group">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" required  placeholder="Your name">
-        </div>
-        <div class="form-group">
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" required placeholder="Your last name">
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required placeholder="user@domain.com">
-        </div>
-        <div class="form-group">
-          <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" name="phone" pattern="^\d{3}-\d{3}-\d{4}$" required placeholder="(123)-456-7890">
-        </div>
-        <div class="form-group">
-          <label for="position">Position</label>
-            <select id="position" name="position">
-              <option value="ballet dancer">Ballet Dancer</option>
-              <option value="fire dancer">Fire Dancer</option>
-              <option value="solo musician">Solo Musician</option>
-              <option value="face painter">Face Painter</option>
-              <option value="dance group">Dance Group</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="resume">Resume</label>
-            <input type="file" name="fileupload" required value="fileupload" id="fileupload">
-          </div>
-          <div class="button-match">
-            <button class="btn-start" type ="submit">Submit</button>
-          </div>
-      </form>
-      </div>
-    </div>
-    </div>
-  </main>
+	<div class = "container">
+	  	   <div class = "row">
+		   		<div class="col-xs-12">
+            <h1>Careers</h1>
+            <div id="reqsample" class="request-container success">
 
-  <!-- FOOTER -->
+              <h3>Thanks for reaching out!</h3>
+              <p>We'll get in touch with you soon :) </p>
+               <a class="goToHome button-match" href="index.html"><button class="btn-home">Home</button></a>
+
+   		       </div>
+          </div>
+        </div>
+      </div>
+</main>
+
   <footer>
 	  <div class="footerbar">
 		  <div class="container-fluid footer-info">
@@ -289,30 +246,6 @@
 
 			  </div>
 		  </div>
-
-
-
-		  <div class="bottom-bar">
-
-
-			<button type="button" class="question-button" href="#" title="Checklist">QUESTION ?
-		    </button>
-
-
-			  <div class="question-bottom-bar-dropup">
-				<ul class="question-dropup-menu">
-				  <li class="dropup-item">
-					<a class="dropup-link" href="#" title="Link">Need help?</a>
-				  </li>
-				  <li class="dropup-item">
-					<a class="dropup-link" href="#" title="Link">Contact us</a>
-				  </li>
-				</ul>
-			  </div>
-		  </div>
-
-
-
 	  </div>
   </footer>
 

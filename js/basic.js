@@ -1032,6 +1032,11 @@ $(function(){
 });
 
 /*------- END TAB 30-------*/
+
+
+
+
+
 /*$(function(){
 
   $(".navbar-toggler").on("click", function (){

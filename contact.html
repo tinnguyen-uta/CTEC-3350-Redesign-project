@@ -173,25 +173,25 @@
               <h1>Contact</h1>
               <div class="btn-grid">
                   <div id="contact-contact-col">
-                <form action="action_page.php">
+                <form action="contact_page.php">
                   <div class="form-group">
                     <textarea name="message" rows="5" type="textarea" placeholder="Type your message here"></textarea>
                   </div>
                   <div class="form-group">
                     <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name">
+                    <input type="text" id="fname" name="firstname" required  placeholder="Your name">
                   </div>
                   <div class="form-group">
                     <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name">
+                    <input type="text" id="lname" name="lastname" required placeholder="Your last name">
                   </div>
                   <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="user@domain.com">
+                    <input type="email" id="email" name="email" required placeholder="user@domain.com">
                   </div>
                   <div class="form-group">
                     <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" placeholder="(123)-456-7890">
+                    <input type="tel" id="phone" name="phone" pattern="^\d{3}-\d{3}-\d{4}$" required placeholder="(123)-456-7890">
                   </div>
                   <div class="prefresponse">
                     <p>Preferred response:</p>
@@ -200,9 +200,8 @@
                       <div class="radio-align"><input type="radio" name="prefcontact" value="phone"> Phone<br></div>
 
                   </div>
-
-                    </form>
-                    <a href="contact-success.html" class="button-match"><button class="btn-start">Submit</button></a>
+                  <button type ="submit" class="btn-start">Submit</button>
+                </form>
            </div>
       </div>
     </div>
