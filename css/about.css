@@ -8,23 +8,31 @@
 	  height:300px;
 	  object-fit:cover;
 	  border-radius:50%;
+	text-align: center;
 }
 
 .about-item, .about-item h5 {
-	text-align:center;
+	text-align: center;
 }
 
 .about-social-photo {
-	padding: 2rem;
-	height: 400px;
+	
+	
 }
 
-.about-social {
-	text-align: center;
+.about-social p {
+text-align: left;
 }
+
+@media (min-width: 576px) {
+	.about-social, .about-main-photo, .about-social-photo {
+		text-align: center;
+		} 
+}
+
 
 .about-main-photo {
-	text-align: center;
+	
 }
 
 h6 {
